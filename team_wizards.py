@@ -2,7 +2,7 @@ import random
 from typing import Iterable, List
 from planet_wars.player_bots.baseline_code.baseline_bot import AttackWeakestPlanetFromStrongestBot
 from numpy import choose
-
+from runtime_Terror import ETerror
 from planet_wars.planet_wars import Player, PlanetWars, Order, Planet
 from planet_wars.battles.tournament import get_map_by_id, run_and_view_battle, TestBot
 
@@ -19,16 +19,24 @@ class WizardsBot(Player):
         :param game: PlanetWars object representing the map
         :return: The planets we need to attack
         """
-        return [p for p in game.planets if p.owner != PlanetWars.ME]
+        return [p for p in game.planets if (p.owner != PlanetWars.ME) and (p.owner == PlanetWars.NEUTRAL or p.owner == PlanetWars.ENEMY)]
 
-    def ships_to_send_in_a_flee(self, source_planet: Planet, dest_planet: Planet) -> int:
+    def ships_to_send_in_a_flee(self, source_planet: Planet, dest_planet: Planet, game) -> int:
+        
+        
+        ships_to_planet = 0
+        for f in game.get_fleets_by_owner(owner=PlanetWars.ENEMY):
+            if dest_planet.planet_id == f.destination_planet_id:
+                ships_to_planet += f.num_ships
+
         growth = dest_planet.growth_rate
         distance = dest_planet.distance_between_planets(source_planet, dest_planet)
+        
         # print(growth, distance)
         if dest_planet.owner == PlanetWars.NEUTRAL:
-            return (dest_planet.num_ships + 6)
+            return (dest_planet.num_ships + 1 + ships_to_planet)
         else:
-            return (dest_planet.num_ships + growth * distance + 5)
+            return ((dest_planet.num_ships + growth * distance) + 1 + ships_to_planet)
     # def choose_planet(planets_to_attack: List[Planet]) -> Planet:
     #     """
     #     :param planets_to_attack: List of planets to attack
@@ -49,6 +57,7 @@ class WizardsBot(Player):
         #     return []
 
         # (2) Find my strongest planet.
+       
         my_planets = game.get_planets_by_owner(owner=PlanetWars.ME)
         if len(my_planets) == 0:
             return []
@@ -59,22 +68,35 @@ class WizardsBot(Player):
         if len(planets_to_attack) == 0:
             return []
         # self.choose_planet(planets_to_attack)
-        
+        arrayOfPlanetId=[]
+        for planetId in game.get_fleets_by_owner(owner=PlanetWars.ME):
+            arrayOfPlanetId.append(planetId.destination_planet_id)
+
         chosen = planets_to_attack[0]
         chosen.score = chosen.num_ships / (chosen.growth_rate + .5)+ (chosen.distance_between_planets(my_strongest_planet, chosen) / .5)
         for p in planets_to_attack:
+            if p.planet_id in arrayOfPlanetId:
+                continue
+                # # if p.planet_id == game.get_fleets_by_owner(owner=PlanetWars.ME)[0].destination_planet_id:
+                # print(game.get_fleets_by_owner(owner=PlanetWars.ME)[0].destination_planet_id)
             p.score = p.num_ships / (p.growth_rate + .5)+ p.distance_between_planets(my_strongest_planet, p) / .5
 
             if p.score < chosen.score:
                 chosen = p
         
         # enemy_or_neutral_weakest_planet = min(planets_to_attack, key=lambda planet: planet.num_ships)
-
+#############################################################################################################################
+#############################################################################################################################
+#############################################################################################################################
+#############################################################################################################################
         # (4) Send half the ships from my strongest planet to the weakest planet that I do not own.
+        # if game.get_fleets_by_owner(owner=PlanetWars.ME):
+        #     print(game.get_fleets_by_owner(owner=PlanetWars.ME)[0].destination_planet_id)
+        
         return [Order(
             my_strongest_planet,
             chosen,
-            self.ships_to_send_in_a_flee(my_strongest_planet, chosen)
+            self.ships_to_send_in_a_flee(my_strongest_planet, chosen, game)
         )]
 
 
@@ -131,7 +153,7 @@ def view_bots_battle():
     Requirements: Java should be installed on your device.
     """
     map_str = get_random_map()
-    run_and_view_battle(WizardsBot(), AttackWeakestPlanetFromStrongestBot(), map_str)
+    run_and_view_battle(WizardsBot(), ETerror(), map_str)
 
 
 def check_bot():
@@ -171,7 +193,7 @@ def check_bot():
     tester = TestBot(
         player=player_bot_to_test,
         competitors=[
-            AttackEnemyWeakestPlanetFromStrongestBot(), AttackWeakestPlanetFromStrongestSmarterNumOfShipsBot(), AttackWeakestPlanetFromStrongestBot()
+            AttackEnemyWeakestPlanetFromStrongestBot(),ETerror(), AttackWeakestPlanetFromStrongestSmarterNumOfShipsBot(), AttackWeakestPlanetFromStrongestBot()
         ],
         maps=maps
     )
