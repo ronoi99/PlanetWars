@@ -1,4 +1,5 @@
 import random
+import math
 from typing import Iterable, List
 
 from planet_wars.planet_wars import Player, PlanetWars, Order, Planet
@@ -17,6 +18,7 @@ class AttackWeakestPlanetFromStrongestBot(Player):
         :param game: PlanetWars object representing the map
         :return: The planets we need to attack
         """
+        neutral
         return [p for p in game.planets if p.owner != PlanetWars.ME]
 
     def ships_to_send_in_a_flee(self, source_planet: Planet, dest_planet: Planet) -> int:
@@ -139,3 +141,12 @@ def check_bot():
 if __name__ == "__main__":
     check_bot()
     view_bots_battle()
+
+def ideal_planet_to_attack(planets, target_all, origin_planet):
+    all_planets_ranked = {}
+    for p in planets:
+        score = (p.rate * p.fleet_size)/distance_between_planets(origin_planet, p)
+    return ideal # a planet
+    
+def distance_between_planets(planetA: Planet, planetB: Planet):
+    return math.dist([planetA.x, planetA.y], [planetB.x, planetB.y])

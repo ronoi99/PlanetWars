@@ -15,7 +15,7 @@ class AttackWeakestPlanetFromStrongestBot(Player):
     def get_planets_to_attack(self, game: PlanetWars) -> List[Planet]:
         """
         :param game: PlanetWars object representing the map
-        :return: The planets we need to attack
+        :return: The planets we need to attack 
         """
         return [p for p in game.planets if p.owner != PlanetWars.ME]
 
@@ -36,19 +36,22 @@ class AttackWeakestPlanetFromStrongestBot(Player):
         my_planets = game.get_planets_by_owner(owner=PlanetWars.ME)
         if len(my_planets) == 0:
             return []
-        my_strongest_planet = max(my_planets, key=lambda planet: planet.num_ships)
+        my_strongest_planet = max(
+            my_planets, key=lambda planet: planet.num_ships)
 
         # (3) Find the weakest enemy or neutral planet.
         planets_to_attack = self.get_planets_to_attack(game)
         if len(planets_to_attack) == 0:
             return []
-        enemy_or_neutral_weakest_planet = min(planets_to_attack, key=lambda planet: planet.num_ships)
+        enemy_or_neutral_weakest_planet = min(
+            planets_to_attack, key=lambda planet: planet.num_ships)
 
         # (4) Send half the ships from my strongest planet to the weakest planet that I do not own.
         return [Order(
             my_strongest_planet,
             enemy_or_neutral_weakest_planet,
-            self.ships_to_send_in_a_flee(my_strongest_planet, enemy_or_neutral_weakest_planet)
+            self.ships_to_send_in_a_flee(
+                my_strongest_planet, enemy_or_neutral_weakest_planet)
         )]
 
 
@@ -104,7 +107,8 @@ def view_bots_battle():
     Requirements: Java should be installed on your device.
     """
     map_str = get_random_map()
-    run_and_view_battle(AttackWeakestPlanetFromStrongestBot(), AttackEnemyWeakestPlanetFromStrongestBot(), map_str)
+    run_and_view_battle(AttackWeakestPlanetFromStrongestBot(
+    ), AttackEnemyWeakestPlanetFromStrongestBot(), map_str)
 
 
 def check_bot():
@@ -118,7 +122,8 @@ def check_bot():
     tester = TestBot(
         player=player_bot_to_test,
         competitors=[
-            AttackEnemyWeakestPlanetFromStrongestBot(), AttackWeakestPlanetFromStrongestSmarterNumOfShipsBot()
+            AttackEnemyWeakestPlanetFromStrongestBot(
+            ), AttackWeakestPlanetFromStrongestSmarterNumOfShipsBot()
         ],
         maps=maps
     )
