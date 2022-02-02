@@ -119,7 +119,60 @@ class BestBotClass(Player):
         ]
 
 
-class AttackEnemyWeakestPlanetFromStrongestBot(BestBotClass):
+class AttackWeakestPlanetFromStrongestBot(Player):
+    """
+    Example of very simple bot - it send flee from its strongest planet to the weakest enemy/neutral planet
+    """
+
+    def get_planets_to_attack(self, game: PlanetWars) -> List[Planet]:
+        """
+        :param game: PlanetWars object representing the map
+        :return: The planets we need to attack
+        """
+        return [p for p in game.planets if p.owner != PlanetWars.ME]
+
+    def ships_to_send_in_a_flee(
+        self, source_planet: Planet, dest_planet: Planet
+    ) -> int:
+        return source_planet.num_ships // 2
+
+    def play_turn(self, game: PlanetWars) -> Iterable[Order]:
+        """
+        See player.play_turn documentation.
+        :param game: PlanetWars object representing the map - use it to fetch all the planets and flees in the map.
+        :return: List of orders to execute, each order sends ship from a planet I own to other planet.
+        """
+        # (1) If we currently have a fleet in flight, just do nothing.
+        if len(game.get_fleets_by_owner(owner=PlanetWars.ME)) >= 1:
+            return []
+
+        # (2) Find my strongest planet.
+        my_planets = game.get_planets_by_owner(owner=PlanetWars.ME)
+        if len(my_planets) == 0:
+            return []
+        my_strongest_planet = max(my_planets, key=lambda planet: planet.num_ships)
+
+        # (3) Find the weakest enemy or neutral planet.
+        planets_to_attack = self.get_planets_to_attack(game)
+        if len(planets_to_attack) == 0:
+            return []
+        enemy_or_neutral_weakest_planet = min(
+            planets_to_attack, key=lambda planet: planet.num_ships
+        )
+
+        # (4) Send half the ships from my strongest planet to the weakest planet that I do not own.
+        return [
+            Order(
+                my_strongest_planet,
+                enemy_or_neutral_weakest_planet,
+                self.ships_to_send_in_a_flee(
+                    my_strongest_planet, enemy_or_neutral_weakest_planet
+                ),
+            )
+        ]
+
+
+class AttackEnemyWeakestPlanetFromStrongestBot(AttackWeakestPlanetFromStrongestBot):
     """
     Same like AttackWeakestPlanetFromStrongestBot but attacks only enemy planet - not neutral planet.
     The idea is not to "waste" ships on fighting with neutral planets.
@@ -138,7 +191,9 @@ class AttackEnemyWeakestPlanetFromStrongestBot(BestBotClass):
         return game.get_planets_by_owner(owner=PlanetWars.ENEMY)
 
 
-class AttackWeakestPlanetFromStrongestSmarterNumOfShipsBot(BestBotClass):
+class AttackWeakestPlanetFromStrongestSmarterNumOfShipsBot(
+    AttackWeakestPlanetFromStrongestBot
+):
     """
     Same like AttackWeakestPlanetFromStrongestBot but with smarter flee size.
     If planet is neutral send up to its population + 5
