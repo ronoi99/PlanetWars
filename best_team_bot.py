@@ -3,6 +3,8 @@ import random
 from typing import Iterable, List
 
 
+from runtime_Terror import ETerror
+
 from planet_wars.planet_wars import Player, PlanetWars, Order, Planet
 
 from planet_wars.battles.tournament import get_map_by_id, run_and_view_battle, TestBot
@@ -38,7 +40,7 @@ class BestBotClass(Player):
         self, source_planet: Planet, dest_planet: Planet
     ) -> int:
 
-        return dest_planet.num_ships + 2
+        return dest_planet.num_ships + 3
 
     def play_turn(self, game: PlanetWars) -> Iterable[Order]:
 
@@ -61,7 +63,7 @@ class BestBotClass(Player):
 
         my_strongest_planet = max(my_planets, key=lambda planet: planet.num_ships)
 
-        owner = 2 if len(my_planets) >= 6 else 0
+        owner = random.choice([0, 2])
 
         planets = game.get_planets_by_owner(owner)
 
@@ -79,36 +81,20 @@ class BestBotClass(Player):
         )
 
         if not bool(planet_to_attack):
-
-            return []
+            my_best = max(my_planets, key=lambda p: p.growth_rate)
+            return [
+                Order(
+                    my_strongest_planet,
+                    my_best,
+                    my_strongest_planet.num_ships,
+                )
+            ]
 
         self.last_turns += [planet_to_attack.planet_id]
 
         self.last_turns = (
             self.last_turns[-1:] if len(self.last_turns) > 2 else self.last_turns
         )
-
-        # (1) If we currently have a fleet in flight, just do nothing.
-
-        # if len(game.get_fleets_by_owner(owner=PlanetWars.ME)) >= 1:
-
-        #     return []
-
-        # (3) Find the weakest enemy or neutral planet.
-
-        # planets_to_attack = self.get_planets_to_attack(game)
-
-        # if len(planets_to_attack) == 0:
-
-        #     return []
-
-        # enemy_or_neutral_weakest_planet = min(
-
-        #     planets_to_attack, key=lambda planet: planet.num_ships
-
-        # )
-
-        # (4) Send half the ships from my strongest planet to the weakest planet that I do not own.
 
         return [
             Order(
@@ -198,8 +184,9 @@ def view_bots_battle():
     map_str = get_random_map()
 
     run_and_view_battle(
-        BestBotClass(),
-        AttackEnemyWeakestPlanetFromStrongestBot(),
+        BestBotClass(),  # red
+        # AttackEnemyWeakestPlanetFromStrongestBot(),
+        ETerror(),
         map_str,
     )
 
