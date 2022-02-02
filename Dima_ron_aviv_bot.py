@@ -1,8 +1,9 @@
 import random
 from typing import Iterable, List
 
-from planet_wars.planet_wars import Player, PlanetWars, Order, Planet
+from planet_wars.planet_wars import Player, PlanetWars, Order, Planet, Fleet
 from planet_wars.battles.tournament import get_map_by_id, run_and_view_battle, TestBot
+from team_wizards import WizardsBot
 
 import pandas as pd
 
@@ -51,27 +52,29 @@ class AttackWeakestPlanetFromStrongestBot(Player):
             self.ships_to_send_in_a_flee(my_strongest_planet, enemy_or_neutral_weakest_planet)
         )]
 
+
 class dima(Player):
     """
     Example of very simple bot - it send flee from its strongest planet to the weakest enemy/neutral planet
     """
-    #calculating distance between two planets
+
+    # calculating distance between two planets
     def distance(self, source, destination):
-        if source==destination:
+        if source == destination:
             return 0.00000000001
         return Planet.distance_between_planets(source, destination)
 
-    #calculating the number of ships that can be sent to a planet
+    # calculating the number of ships that can be sent to a planet
     def ships_to_send(self, source_planet: Planet, dest_planet: Planet) -> int:
         return source_planet.num_ships - 1
-    
-    #get number of ships on a planet
+
+    # get number of ships on a planet
     def get_num_ships(self, planet):
-        if planet.num_ships==0:
+        if planet.num_ships == 0:
             return 0.00000000001
         return planet.num_ships
-    
-    #get growth rate of a planet
+
+    # get growth rate of a planet
     def get_growth_rate(self, planet):
         return planet.growth_rate
 
@@ -79,26 +82,63 @@ class dima(Player):
     # def enemy_ships_in_future(self, source_planet: Planet, dest_planet: Planet, num_turns: int) -> int:
     #     return dest_planet.num_ships + (dest_planet.growth_rate * num_turns)
 
-    
+    def planet_ships_in_future(self, game, planet: Planet, num_turns: int) -> int:
+        backup = 0
+        for fleet in game.get_fleets_by_owner(owner=PlanetWars.ENEMY):
+            if fleet.destination_planet_id == planet.planet_id:
+                backup += fleet.num_ships
+        if planet.owner == PlanetWars.NEUTRAL:
+            return planet.num_ships + backup
+        else:
+            return planet.num_ships + (planet.growth_rate * num_turns) + backup
 
-    
+    # rating a planet by distance, growth rate and number of ships
+    def rate_planet(self, game, source, destination):
 
-    #rating a planet by distance, growth rate and number of ships
-    def rate_planet(self, source,destination ):
-        #weights :
-        distance_weight=1.3
-        growth_rate_weight=1.2
-        num_ships_weight=1
-        enemy_weight=1
+        # weights :
+        distance_weight = 1.3
+        growth_rate_weight = 1.2
+        num_ships_weight = 1
+        enemy_weight = 1
 
-        if self.distance(source,destination)>=13:
+        if self.game_rate(game) > 0.5:
+            enemy_weight = 1.2
+        if self.game_rate(game) > 0.6:
+            enemy_weight = 1.4
+        if self.distance(source, destination) >= 15:
             return 0
-        if(destination.owner==PlanetWars.ENEMY and source.num_ships>destination.num_ships):
-            enemy_weight=1.3
-       
-            
-        return enemy_weight*growth_rate_weight*self.get_growth_rate(destination) / (distance_weight*self.distance(source,destination) * num_ships_weight*self.get_num_ships(destination))
-    
+        if destination.growth_rate == 0:
+            return 0
+        if (destination.owner == PlanetWars.ENEMY and source.num_ships > destination.num_ships):
+            enemy_weight = 1.5
+
+        for fleet in game.get_fleets_by_owner(owner=PlanetWars.ME):
+            if fleet.destination_planet_id == destination.planet_id and destination.owner == PlanetWars.NEUTRAL:
+                return 0
+
+        return enemy_weight * growth_rate_weight * self.get_growth_rate(destination) / (
+                    distance_weight * self.distance(source, destination) * num_ships_weight * self.get_num_ships(
+                destination))
+
+    # calculate total growth rate of all my planets
+    def total_growth_rate(self, game):
+        # total game growth rate
+        total_growth_rate = 0
+        for planet in game.planets:
+            total_growth_rate += planet.growth_rate
+        return total_growth_rate
+
+    # calculate total growth rate of all my planets
+    def my_growth_rate(self, game):
+        total = 0
+        for planet in game.get_planets_by_owner(owner=PlanetWars.ME):
+            total += planet.growth_rate
+        return total
+
+    # calculate game rate
+    def game_rate(self, game):
+        return self.my_growth_rate(game) / self.total_growth_rate(game)
+
     def get_planets_to_attack(self, game: PlanetWars) -> List[Planet]:
         """
         :param game: PlanetWars object representing the map
@@ -106,17 +146,12 @@ class dima(Player):
         """
         return [p for p in game.planets if p.owner != PlanetWars.ME]
 
-    def ships_to_send_in_a_flee(self, source_planet: Planet, dest_planet: Planet) -> int:
-        if source_planet.num_ships <=40:
-            return 0
-
-        if source_planet.num_ships <=40 and source_planet.growth_rate <=2  :
-            return 0 
-    
-            
-                
-
-        return source_planet.num_ships // 2
+    def ships_to_send_in_a_flee(self, game, source_planet: Planet, dest_planet: Planet) -> int:
+        # if source_planet.num_ships <=30:
+        #     return 0
+        # if source_planet.num_ships <=40 and source_planet.growth_rate <=2  :
+        #     return 0
+        return self.planet_ships_in_future(game, dest_planet, self.distance(source_planet, dest_planet)) + 2
 
     def play_turn(self, game: PlanetWars) -> Iterable[Order]:
         """
@@ -138,7 +173,8 @@ class dima(Player):
         planets_to_attack = self.get_planets_to_attack(game)
         if len(planets_to_attack) == 0:
             return []
-        enemy_or_neutral_weakest_planet = max(planets_to_attack, key=lambda planet: self.rate_planet(my_strongest_planet,planet))
+        enemy_or_neutral_weakest_planet = max(planets_to_attack,
+                                              key=lambda planet: self.rate_planet(game, my_strongest_planet, planet))
 
         # # (3) Find the weakest enemy or neutral planet.
         # planets_to_attack = self.get_planets_to_attack(game)
@@ -147,12 +183,14 @@ class dima(Player):
         # enemy_or_neutral_weakest_planet = min(planets_to_attack, key=lambda planet: planet.num_ships)
 
         # (4) Send half the ships from my strongest planet to the weakest planet that I do not own.
-        return [Order(
-            my_strongest_planet,
-            enemy_or_neutral_weakest_planet,
-            self.ships_to_send_in_a_flee(my_strongest_planet, enemy_or_neutral_weakest_planet)
-        )]
-
+        arr = []
+        for planet in my_planets:
+            arr.append(Order(
+                planet,
+                enemy_or_neutral_weakest_planet,
+                self.ships_to_send_in_a_flee(game, planet, enemy_or_neutral_weakest_planet)
+            ))
+        return arr
 
 
 class AttackEnemyWeakestPlanetFromStrongestBot(AttackWeakestPlanetFromStrongestBot):
@@ -207,7 +245,7 @@ def view_bots_battle():
     Requirements: Java should be installed on your device.
     """
     map_str = get_random_map()
-    run_and_view_battle(AttackWeakestPlanetFromStrongestBot(), dima(), map_str)
+    run_and_view_battle(ETerror(), dima(), map_str)
 
 
 def check_bot():
@@ -217,11 +255,11 @@ def check_bot():
     So is AttackWeakestPlanetFromStrongestBot worse than the 2 other bots? The answer might surprise you.
     """
     maps = [get_random_map(), get_random_map()]
-    player_bot_to_test = AttackWeakestPlanetFromStrongestSmarterNumOfShipsBot()
+    player_bot_to_test = WizardsBot()
     tester = TestBot(
         player=player_bot_to_test,
         competitors=[
-            AttackWeakestPlanetFromStrongestSmarterNumOfShipsBot(), dima()
+            WizardsBot(), dima()
         ],
         maps=maps
     )
