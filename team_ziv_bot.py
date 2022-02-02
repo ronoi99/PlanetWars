@@ -34,7 +34,7 @@ class TeamZivBot(Player):
             print(all_relevant_planets, ships_i_need)
             if not all_relevant_planets:
                 continue
-            relevant_planets = all_relevant_planets[0:RELEVANT_PLANET_AMOUNT] 
+            relevant_planets = all_relevant_planets[0:RELEVANT_PLANET_AMOUNT]
             total_relevant_ships = sum([planet.num_ships for planet in relevant_planets])
 
             return [Order(planet,dest_planet,ceil((ships_i_need / total_relevant_ships) * planet.num_ships)) for planet in relevant_planets]
@@ -54,7 +54,7 @@ class TeamZivBot(Player):
         strongest_planet = max(me_planets, key = lambda planet: planet.num_ships)
         closest_planet = min(not_me_planets, key = lambda planet: planet.num_ships + 10*Planet.distance_between_planets(planet, strongest_planet))
         return [Order(
-            strongest_planet, 
+            strongest_planet,
             closest_planet,
             strongest_planet.num_ships
         )]
@@ -118,7 +118,6 @@ class AttackEnemyWeakestPlanetFromStrongestBot(AttackWeakestPlanetFromStrongestB
     """
     Same like AttackWeakestPlanetFromStrongestBot but attacks only enemy planet - not neutral planet.
     The idea is not to "waste" ships on fighting with neutral planets.
-
     See which bot is better using the function view_bots_battle
     """
 
@@ -135,7 +134,6 @@ class AttackWeakestPlanetFromStrongestSmarterNumOfShipsBot(AttackWeakestPlanetFr
     Same like AttackWeakestPlanetFromStrongestBot but with smarter flee size.
     If planet is neutral send up to its population + 5
     If it is enemy send most of your ships to fight!
-
     Will it out preform AttackWeakestPlanetFromStrongestBot? see test_bot function.
     """
 
@@ -160,7 +158,6 @@ def get_random_map():
 def view_bots_battle():
     """
     Runs a battle and show the results in the Java viewer
-
     Note: The viewer can only open one battle at a time - so before viewing new battle close the window of the
     previous one.
     Requirements: Java should be installed on your device.
