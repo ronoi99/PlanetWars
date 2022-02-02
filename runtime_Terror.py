@@ -1,6 +1,3 @@
-from asyncio.proactor_events import constants
-from math import ceil
-from pprint import pprint
 import random
 from typing import Iterable, List
 
@@ -8,6 +5,8 @@ from planet_wars.planet_wars import Player, PlanetWars, Order, Planet
 from planet_wars.battles.tournament import get_map_by_id, run_and_view_battle, TestBot
 
 import pandas as pd
+
+
 class ETerror(Player):
     """
     Eterro
@@ -94,87 +93,6 @@ class ETerror(Player):
                 orders.append(Order(planet,attack_planet,troops))
         return orders
 
-
-RELEVANT_PLANET_AMOUNT = 4
-
-class TeamZivBot(Player):
-    def get_planets_to_attack(self, game: PlanetWars) -> List[Planet]:
-        return [p for p in game.planets if p.owner != PlanetWars.ME] # all not me planets
-
-    def get_ship_in_radius(self, game: PlanetWars,center_planet: Planet, radius: int, owner):
-        planets = [planet for planet in game.planets if planet.owner == owner and Planet.distance_between_planets(planet, center_planet) <= radius]
-        planets.sort(key = lambda planet: planet.distance_between_planets(planet,center_planet))
-        return planets
-
-    def defend(self,game: PlanetWars):
-        for enemy_fleet in game.get_fleets_by_owner(owner=PlanetWars.ENEMY):
-            dest_planet = game.planets[enemy_fleet.destination_planet_id]
-            if(dest_planet.owner != PlanetWars.ME):
-                continue
-            ships_i_will_have = dest_planet.num_ships + enemy_fleet.turns_remaining * dest_planet.growth_rate
-            if(ships_i_will_have > enemy_fleet.num_ships):
-                continue # bad attack
-
-            ships_i_need =  enemy_fleet.num_ships - ships_i_will_have
-            all_relevant_planets = self.get_ship_in_radius(game, dest_planet, enemy_fleet.turns_remaining, PlanetWars.ME)
-            print(all_relevant_planets, ships_i_need)
-            if not all_relevant_planets:
-                continue
-            relevant_planets = all_relevant_planets[0:RELEVANT_PLANET_AMOUNT]
-            total_relevant_ships = sum([planet.num_ships for planet in relevant_planets])
-
-            if total_relevant_ships < ships_i_need:
-                continue
-            return [Order(planet,dest_planet,ceil((ships_i_need / total_relevant_ships) * planet.num_ships)) for planet in relevant_planets], relevant_planets
-        return [], []
-
-    def me_planets(self, game: PlanetWars):
-        planets = [planet for planet in game.planets if planet.owner == PlanetWars.ME]
-        return planets
-
-    def sum_fleets( self, game: PlanetWars, planet: Planet):
-        coming_fleets = [fleet for fleet in game.fleets if fleet.owner == PlanetWars.ENEMY and fleet.destination_planet_id == planet.planet_id]
-        return sum([fleet.num_ships for fleet in coming_fleets])
-
-    def attack(self, game: PlanetWars, remaining_planets: Planet):
-        orders = []
-        for planet in remaining_planets:
-            if len([flee for flee in game.fleets if flee.owner == PlanetWars.ME]) >= 2*len(game.get_planets_by_owner(PlanetWars.ME)):
-                pass
-            me_planets = self.me_planets(game)
-            not_me_planets = [planet for planet in game.planets if planet.owner != PlanetWars.ME]
-            if len(me_planets) == 0 or len(not_me_planets) == 0:
-                continue
-
-            not_me_planets.sort( key = lambda p: 6*Planet.distance_between_planets(p, planet)- 10 * p.growth_rate)
-            for closest_planet in not_me_planets[0:2]:
-                added = closest_planet.growth_rate * Planet.distance_between_planets(closest_planet, planet)
-                will_be_ships = (closest_planet.num_ships + (added if closest_planet.owner == PlanetWars.ENEMY else 0)) + self.sum_fleets(game,closest_planet)
-
-                if will_be_ships + self.sum_fleets(game,planet) > planet.num_ships:
-                    continue
-
-                orders.append(Order(
-                    planet, 
-                    closest_planet,
-                    will_be_ships + 1
-                ))
-                break
-
-        return orders
-
-    def play_turn(self, game: PlanetWars) -> Iterable[Order]:
-        order = []
-
-
-        def_order, used_planets = self.defend(game)
-        remaining_planets = [planet for planet in game.get_planets_by_owner(PlanetWars.ME) if not planet in used_planets]
-        att_order = self.attack(game, remaining_planets)
-        if (len(def_order) > 0): order +=def_order
-        if (len(att_order) > 0): order +=att_order
-        return order
-
-
 class AttackWeakestPlanetFromStrongestBot(Player):
     """
     Example of very simple bot - it send flee from its strongest planet to the weakest enemy/neutral planet
@@ -219,40 +137,6 @@ class AttackWeakestPlanetFromStrongestBot(Player):
             self.ships_to_send_in_a_flee(my_strongest_planet, enemy_or_neutral_weakest_planet)
         )]
 
-
-class AttackEnemyWeakestPlanetFromStrongestBot(AttackWeakestPlanetFromStrongestBot):
-    """
-    Same like AttackWeakestPlanetFromStrongestBot but attacks only enemy planet - not neutral planet.
-    The idea is not to "waste" ships on fighting with neutral planets.
-    See which bot is better using the function view_bots_battle
-    """
-
-    def get_planets_to_attack(self, game: PlanetWars):
-        """
-        :param game: PlanetWars object representing the map
-        :return: The planets we need to attack - attack only enemy's planets
-        """
-        return game.get_planets_by_owner(owner=PlanetWars.ENEMY)
-
-
-class AttackWeakestPlanetFromStrongestSmarterNumOfShipsBot(AttackWeakestPlanetFromStrongestBot):
-    """
-    Same like AttackWeakestPlanetFromStrongestBot but with smarter flee size.
-    If planet is neutral send up to its population + 5
-    If it is enemy send most of your ships to fight!
-    Will it out preform AttackWeakestPlanetFromStrongestBot? see test_bot function.
-    """
-
-    def ships_to_send_in_a_flee(self, source_planet: Planet, dest_planet: Planet) -> int:
-        original_num_of_ships = source_planet.num_ships // 2
-        if dest_planet.owner == PlanetWars.NEUTRAL:
-            if dest_planet.num_ships < original_num_of_ships:
-                return dest_planet.num_ships + 5
-        if dest_planet.owner == PlanetWars.ENEMY:
-            return int(source_planet.num_ships * 0.75)
-        return original_num_of_ships
-
-
 def get_random_map():
     """
     :return: A string of a random map in the maps directory
@@ -264,21 +148,27 @@ def get_random_map():
 def view_bots_battle():
     """
     Runs a battle and show the results in the Java viewer
+
     Note: The viewer can only open one battle at a time - so before viewing new battle close the window of the
     previous one.
     Requirements: Java should be installed on your device.
     """
     map_str = get_random_map()
-    run_and_view_battle(TeamZivBot(), ETerror(), map_str)
+    run_and_view_battle(ETerror(), AttackWeakestPlanetFromStrongestBot(), map_str)
 
 
 def check_bot():
+    """
+    Test AttackWeakestPlanetFromStrongestBot against the 2 other bots.
+    Print the battle results data frame and the PlayerScore object of the tested bot.
+    So is AttackWeakestPlanetFromStrongestBot worse than the 2 other bots? The answer might surprise you.
+    """
     maps = [get_random_map(), get_random_map()]
-    player_bot_to_test = TeamZivBot()
+    player_bot_to_test = AttackWeakestPlanetFromStrongestBot()
     tester = TestBot(
         player=player_bot_to_test,
         competitors=[
-            AttackEnemyWeakestPlanetFromStrongestBot(), AttackWeakestPlanetFromStrongestSmarterNumOfShipsBot()
+            ETerror(), AttackWeakestPlanetFromStrongestBot()
         ],
         maps=maps
     )
