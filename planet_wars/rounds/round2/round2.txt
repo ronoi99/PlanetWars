@@ -1,0 +1,12 @@
+BestBotClass-SpacePirateBot	SpacePirateBot-RhulBot	RhulBot-penguins_bot	penguins_bot-dyBot	dyBot-WizardsBot	WizardsBot-DreamTeam	DreamTeam-dima	dima-shakeDocker	shakeDocker-TeamZivBot	TeamZivBot-BestBotClass
+ SpacePirateBot	RhulBot	RhulBot	penguins_bot	WizardsBot	DreamTeam	DreamTeam	shakeDocker	shakeDocker	TeamZivBot
+SpacePirateBot-RhulBot	RhulBot-penguins_bot	penguins_bot-WizardsBot	WizardsBot-DreamTeam	DreamTeam-shakeDocker	shakeDocker-TeamZivBot	TeamZivBot-SpacePirateBot
+ RhulBot	RhulBot	penguins_bot	DreamTeam	shakeDocker	shakeDocker	TeamZivBot
+RhulBot-penguins_bot	penguins_bot-DreamTeam	DreamTeam-shakeDocker	shakeDocker-TeamZivBot	TeamZivBot-RhulBot
+ RhulBot	DreamTeam	shakeDocker	shakeDocker	TeamZivBot
+RhulBot-DreamTeam	DreamTeam-shakeDocker	shakeDocker-TeamZivBot	TeamZivBot-RhulBot
+ DreamTeam	shakeDocker	shakeDocker	TeamZivBot
+DreamTeam-shakeDocker	shakeDocker-TeamZivBot	TeamZivBot-DreamTeam
+ shakeDocker	shakeDocker	DreamTeam
+shakeDocker-DreamTeam	DreamTeam-shakeDocker
+ shakeDocker	shakeDocker

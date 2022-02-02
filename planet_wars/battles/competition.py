@@ -7,12 +7,13 @@ from best_team_bot import BestBotClass
 from Dima_ron_aviv_bot import dima
 from dy_team import dyBot
 from penguins_bot import penguins_bot
-from runtime_Terror import ETerror
+from runtime_terror_v2 import shakeDocker
 from space_pirate_bot import SpacePirateBot
 from team_wizards import WizardsBot
 from planet_wars.player_bots.RHUL.RHUL_bot import RhulBot
-from dream_team_bot import DreamTeamV1
+from dream_team_bot import DreamTeam
 from team_ziv_bot import TeamZivBot
+# from ad_BOT import AD_BOT
 
 # Insert Your bot object here, as BotObject(). Don't forget to set BotObject.NAME to your team name
 PLAYER_BOTS = [
@@ -20,12 +21,13 @@ PLAYER_BOTS = [
     dima(),
     dyBot(),
     penguins_bot(),
-    ETerror(),
+    shakeDocker(),
     SpacePirateBot(),
     WizardsBot(),
     RhulBot(),
-    DreamTeamV1(),
-    TeamZivBot()
+    DreamTeam(),
+    TeamZivBot(),
+    # AD_BOT()
 ]
 
 
@@ -47,6 +49,26 @@ P 18.360731572897127 16.94641311680333 0 35 5
 P 21.431433058369393 14.134653557437993 0 50 2
 P 10.830154961442174 4.773927144632324 0 50 2"""
 
+
+ROUND2_MAP = """P 15 15 0 43 1
+P 11.114072097364033 22.64553445227421 1 100 5
+P 18.885927902635963 7.35446554772579 2 100 5
+P 6.930398156851366 11.06419220434527 0 73 1
+P 23.069601843148636 18.935807795654732 0 73 1
+P 8.464341714844089 11.812346466598989 0 43 1
+P 21.53565828515591 18.18765353340101 0 43 1
+P 17.007871967271754 15.321010314082814 0 36 5
+P 12.992128032728246 14.678989685917188 0 36 5
+P 25.438481257658367 20.22656069592056 0 59 3
+P 4.561518742341633 9.77343930407944 0 59 3
+P 11.090851907463446 12.780335591321368 0 65 4
+P 18.909148092536558 17.21966440867863 0 65 4
+P 12.907703910648491 7.052178765948909 0 75 1
+P 17.09229608935151 22.94782123405109 0 75 1
+P 11.780774009384144 27.339326702495185 0 20 4
+P 18.21922599061583 2.6606732975048075 0 20 4"""
+
+
 if __name__ == '__main__':
     # Display options
     warnings.simplefilter(action='ignore')
@@ -54,7 +76,7 @@ if __name__ == '__main__':
     pd.set_option('display.max_rows', None)
     pd.set_option('expand_frame_repr', False)
 
-    tournament = Tournament(PLAYER_BOTS, [ROUND1_MAP], all_against_all=False)
+    tournament = Tournament(PLAYER_BOTS, [ROUND2_MAP], all_against_all=False)
     battle_results = tournament.run_tournament()
     # player_scores_df = tournament.get_player_scores_data_frame()
     battle_results_df = tournament.get_battle_results_data_frame()
