@@ -4,7 +4,7 @@ from collections import Counter
 
 from planet_wars.planet_wars import Player, PlanetWars, Order, Planet
 from planet_wars.battles.tournament import get_map_by_id, run_and_view_battle, TestBot
-from planet_wars.player_bots.baseline_code.baseline_bot import AttackWeakestPlanetFromStrongestBot
+from planet_wars.player_bots.baseline_code.baseline_bot import AttackWeakestPlanetFromStrongestBot, ETerror
 import pandas as pd
 
 
@@ -12,6 +12,10 @@ class penguins_bot(Player):
     """
     Example of very simple bot - it send flee from its strongest planet to the weakest enemy/neutral planet
     """
+
+    # def best_attack(self, game: PlanetWars) -> List[Planet]:
+
+    #     return []
 
     def get_planets_to_attack(self, game: PlanetWars) -> List[Planet]:
         """
@@ -27,21 +31,20 @@ class penguins_bot(Player):
         growth_rate = dest_planet.growth_rate
 
         if dest_planet.owner == 0:
-            return enemy_ships + 10
+            return enemy_ships + 1
 
         return enemy_ships + (growth_rate * dist) + 10
 
-    def buildImage(self, game: PlanetWars):
-        homebase = [i for i in game.planets if i.owner == PlanetWars.ME][0]
-        neturalPlantesValue = [
+    def buildImage(self, game: PlanetWars, planet: Planet):
+        neturalPlantes = [
             i for i in game.planets if i.owner == PlanetWars.NEUTRAL]
-        # print(neturalPlantesValue[0].growth_rate)
         matches = {}
-        for i in neturalPlantesValue:
-            matches[i.planet_id] = ((Planet.distance_between_planets(
-                homebase, i)*i.growth_rate)*10) - i.num_ships
-        bestMatch = Counter(matches).most_common(1)
-        return PlanetWars.get_planet_by_id(game, bestMatch[0][0])
+        for p in neturalPlantes:
+            matches[p.planet_id] = Planet.distance_between_planets(planet, p)
+        # bestMatch = min(matches, key=matches.get)
+        # dict(sorted(x.items(), key=lambda item: item[1]))
+        #print(dict(sorted(matches.items(), key=lambda item: item[1])))
+        # print(PlanetWars.get_planet_by_id(game, bestMatch))
 
     def play_turn(self, game: PlanetWars) -> Iterable[Order]:
         """
@@ -49,12 +52,12 @@ class penguins_bot(Player):
         :param game: PlanetWars object representing the map - use it to fetch all the planets and flees in the map.
         :return: List of orders to execute, each order sends ship from a planet I own to other planet.
         """
-
-        # planetToAtt = self.buildImage(game)
-        # print(planetToAtt)
+        myPlantes = [p for p in game.planets if p.owner == PlanetWars.ME]
+        for planet in myPlantes:
+            self.buildImage(game, planet)
         # (1) If we currently have a fleet in flight, just do nothing.
-        if len(game.get_fleets_by_owner(owner=PlanetWars.ME)) >= 1:
-            return []
+        # if len(game.get_fleets_by_owner(owner=PlanetWars.ME)) >= 2:
+        #     return []
 
         # game.fleets[0].
 
@@ -76,13 +79,35 @@ class penguins_bot(Player):
         enemy_or_neutral_weakest_planet = min(
             planets_to_attack, key=lambda planet: planet.num_ships)
 
+        planetsToAttack = []
+        orders = []
+        for planet in game.planets:
+            planetsToAttack.append(planet)
+
+        # planets_to_attack.sort()
+
+        planets_to_attack.sort(
+            key=lambda x: Planet.distance_between_planets(my_strongest_planet, x))
+        middle = len(planets_to_attack)/2
+        growthPlantes = planets_to_attack[:int(middle)]
+        growthPlantes.sort(key=lambda x: x.growth_rate, reverse=True)
+
+        middle = len(growthPlantes)/2
+        lowestShips = growthPlantes[:int(middle)]
+        lowestShips.sort(
+            key=lambda x: x.num_ships)
+
+        for pl in growthPlantes:
+            plusShips = 1
+            if pl.owner == PlanetWars.ENEMY:
+                plusShips = pl.growth_rate * \
+                    Planet.distance_between_planets(
+                        my_strongest_planet, pl) + 1
+            orders.append(Order(my_strongest_planet,
+                          pl, pl.num_ships + plusShips))
+
         # (4) Send half the ships from my strongest planet to the weakest planet that I do not own.
-        return [Order(
-            my_strongest_planet,
-            enemy_or_neutral_weakest_planet,
-            self.ships_to_send_in_a_flee(
-                my_strongest_planet, enemy_or_neutral_weakest_planet)
-        )]
+        return orders
 
 
 class AttackEnemyWeakestPlanetFromStrongestBot(AttackWeakestPlanetFromStrongestBot):
@@ -138,7 +163,7 @@ def view_bots_battle():
     """
     map_str = get_random_map()
     run_and_view_battle(penguins_bot(
-    ), AttackEnemyWeakestPlanetFromStrongestBot(), map_str)
+    ), ETerror(), map_str)
 
 
 def check_bot():
@@ -152,8 +177,7 @@ def check_bot():
     tester = TestBot(
         player=player_bot_to_test,
         competitors=[
-            AttackEnemyWeakestPlanetFromStrongestBot(
-            ), AttackWeakestPlanetFromStrongestSmarterNumOfShipsBot()
+            ETerror()
         ],
         maps=maps
     )
