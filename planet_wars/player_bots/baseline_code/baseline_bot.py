@@ -4,6 +4,8 @@ from typing import Iterable, List
 from planet_wars.planet_wars import Player, PlanetWars, Order, Planet
 from planet_wars.battles.tournament import get_map_by_id, run_and_view_battle, TestBot
 
+from planet_wars import runtime_Terror
+
 import pandas as pd
 
 
@@ -36,19 +38,22 @@ class AttackWeakestPlanetFromStrongestBot(Player):
         my_planets = game.get_planets_by_owner(owner=PlanetWars.ME)
         if len(my_planets) == 0:
             return []
-        my_strongest_planet = max(my_planets, key=lambda planet: planet.num_ships)
+        my_strongest_planet = max(
+            my_planets, key=lambda planet: planet.num_ships)
 
         # (3) Find the weakest enemy or neutral planet.
         planets_to_attack = self.get_planets_to_attack(game)
         if len(planets_to_attack) == 0:
             return []
-        enemy_or_neutral_weakest_planet = min(planets_to_attack, key=lambda planet: planet.num_ships)
+        enemy_or_neutral_weakest_planet = min(
+            planets_to_attack, key=lambda planet: planet.num_ships)
 
         # (4) Send half the ships from my strongest planet to the weakest planet that I do not own.
         return [Order(
             my_strongest_planet,
             enemy_or_neutral_weakest_planet,
-            self.ships_to_send_in_a_flee(my_strongest_planet, enemy_or_neutral_weakest_planet)
+            self.ships_to_send_in_a_flee(
+                my_strongest_planet, enemy_or_neutral_weakest_planet)
         )]
 
 
@@ -101,7 +106,8 @@ def view_bots_battle():
     Requirements: Java should be installed on your device.
     """
     map_str = get_random_map()
-    run_and_view_battle(AttackWeakestPlanetFromStrongestBot(), AttackEnemyWeakestPlanetFromStrongestBot(), map_str)
+    run_and_view_battle(AttackWeakestPlanetFromStrongestBot(
+    ), AttackEnemyWeakestPlanetFromStrongestBot(), map_str)
 
 
 def test_bot():
@@ -115,8 +121,7 @@ def test_bot():
     tester = TestBot(
         player=player_bot_to_test,
         competitors=[
-            AttackEnemyWeakestPlanetFromStrongestBot(), AttackWeakestPlanetFromStrongestSmarterNumOfShipsBot()
-        ],
+            runtime_Terror(), AttackEnemyWeakestPlanetFromStrongestBot()],
         maps=maps
     )
     tester.run_tournament()
