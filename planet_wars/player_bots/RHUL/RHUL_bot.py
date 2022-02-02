@@ -2,10 +2,18 @@ import math
 import random
 from typing import Iterable, List
 
+from best_team_bot import BestBotClass
+from dream_team_bot import DreamTeamV1
+from penguins_bot import penguins_bot
 from planet_wars.planet_wars import Player, PlanetWars, Order, Planet
 from planet_wars.battles.tournament import get_map_by_id, run_and_view_battle, TestBot
 
 import pandas as pd
+
+from runtime_Terror import ETerror
+from space_pirate_bot import SpacePirateBot
+from team_wizards import WizardsBot
+from team_ziv_bot import TeamZivBot
 
 
 class AttackWeakestPlanetFromStrongestBot(Player):
@@ -95,12 +103,18 @@ class RhulBot(Player):
 
     def find_closest(self, planets, strongest):
         closest_planet = Planet(1000, 5, 3, 0, 100.0, 100.0)
-        for p in planets:
+        weaker = [p for p in planets if p.num_ships <= strongest.num_ships and p.growth_rate >= 3]
+        if len(weaker) == 0:
+            weaker = [p for p in planets if p.num_ships < strongest.num_ships and p.growth_rate >= 2]
+        for p in weaker:
             closest_planet = p if Planet.distance_between_planets(strongest, p) < Planet.distance_between_planets(strongest, closest_planet) else closest_planet
         return closest_planet
 
     def ships_to_send(self, planet, strongest):
-        return planet.num_ships + 1
+        if planet.owner == PlanetWars.NEUTRAL:
+            return planet.num_ships * 1.1
+        if planet.owner == PlanetWars.ENEMY:
+            return strongest.num_ships / 1.1
 
     def play_turn(self, game: PlanetWars) -> Iterable[Order]:
         # (1) Find my strongest planet.
@@ -112,6 +126,10 @@ class RhulBot(Player):
 
         # (2) Find closest and weakest planet to attack
         closest_to_attack = self.find_closest(planets_to_attack, my_strongest_planet)
+
+        # (3) If we currently have a fleet in flight, just do nothing.
+        # if len(game.get_fleets_by_owner(owner=PlanetWars.ME)) >= 3:
+        #     return []
 
         # Return the orders
         return [Order(
@@ -138,7 +156,7 @@ def view_bots_battle():
     Requirements: Java should be installed on your device.
     """
     map_str = get_random_map()
-    run_and_view_battle(RhulBot(), AttackEnemyWeakestPlanetFromStrongestBot(), map_str)
+    run_and_view_battle(RhulBot(), ETerror(), map_str)
 
 
 def check_bot():
@@ -152,7 +170,7 @@ def check_bot():
     tester = TestBot(
         player=player_bot_to_test,
         competitors=[
-            AttackWeakestPlanetFromStrongestBot(), AttackWeakestPlanetFromStrongestSmarterNumOfShipsBot()
+            ETerror()
         ],
         maps=maps
     )
