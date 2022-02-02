@@ -6,9 +6,14 @@ from planet_wars.battles.tournament import get_map_by_id, run_and_view_battle, T
 
 import pandas as pd
 
-GROWTH_MULTIPLIER = 1.0
-DISTANCE_MULTIPLIER = 3.0
-SHIPS_MULTIPLIER = 0.5
+from runtime_Terror import ETerror
+
+GROWTH_MULTIPLIER = 1.5
+SHIPS_MULTIPLIER = 5
+START_TURNS = 10
+START_DISTANCE = 100
+END_DISTANCE = 50
+
 
 class AttackWeakestPlanetFromStrongestBot(Player):
     """
@@ -94,7 +99,7 @@ class DreamTeamV1(AttackWeakestPlanetFromStrongestBot):
         scores = []
         for p in other_planets:
             distance = p.distance_between_planets(my_planet, p)
-            score = (p.growth_rate * GROWTH_MULTIPLIER)/(p.num_ships*SHIPS_MULTIPLIER + distance*DISTANCE_MULTIPLIER)
+            score = (p.growth_rate * GROWTH_MULTIPLIER)/(p.num_ships*SHIPS_MULTIPLIER + distance*10)
             # print(f'{p.num_ships}, {p.growth_rate}, {distance}, {score}')
             scores.append({'planet': p, 'score': score})
         return sorted(scores, key=lambda p: p['score'], reverse=True)
@@ -145,8 +150,69 @@ class DreamTeamV1(AttackWeakestPlanetFromStrongestBot):
 
 class DreamTeam(DreamTeamV1):
 
+    def get_planets_to_attack(self, game: PlanetWars, planet: Planet):
+        other_planets = [p for p in game.planets if p.owner != PlanetWars.ME]
+        if game.turns < START_TURNS:
+            DISTANCE_MULTIPLIER = START_DISTANCE
+        else:
+            DISTANCE_MULTIPLIER = END_DISTANCE
+        enemy_planet_scores = self.get_score_for_planet(planet, other_planets, GROWTH_MULTIPLIER, SHIPS_MULTIPLIER, DISTANCE_MULTIPLIER)
+        # print('#'*10)
+        # print([p['score'] for p in enemy_planet_scores])
+        # print('#'*10)
+        attack_planets = [p['planet'] for p in enemy_planet_scores]
+        return attack_planets
+
+    def get_score_for_planet(self, my_planet: Planet, other_planets, GROWTH_MULTIPLIER, SHIPS_MULTIPLIER, DISTANCE_MULTIPLIER):
+        scores = []
+        for p in other_planets:
+            distance = p.distance_between_planets(my_planet, p)
+            score = (p.growth_rate * GROWTH_MULTIPLIER)/(p.num_ships*SHIPS_MULTIPLIER + distance*DISTANCE_MULTIPLIER)
+            scores.append({'planet': p, 'score': score})
+        return sorted(scores, key=lambda p: p['score'], reverse=True)
+
+    def getFleetsToPlanet(self, game: PlanetWars, planet: Planet):
+        enemy_fleets = [fleet for fleet in game.get_fleets_by_owner(PlanetWars.ENEMY) if fleet.destination_planet_id==planet.planet_id]
+        friendly_fleets = [fleet for fleet in game.get_fleets_by_owner(PlanetWars.ME) if fleet.destination_planet_id==planet.planet_id]
+        enemy_points = sum([fleet.num_ships for fleet in enemy_fleets])
+        friendly_points = sum([fleet.num_ships for fleet in friendly_fleets])
+        return {'ME': friendly_points, 'Enemy': enemy_points}
+
+    def create_order(self, game: PlanetWars, planet: Planet, target: Planet):
+        return Order(planet, target, target.num_ships+2)
+
+    def getPointsToPlanet(self, planet: Planet, target: Planet):
+        dist = target.growth_rate * Planet.distance_between_planets(planet, target)
+        print(dist)
+        return dist
+
     def should_attack(self, game: PlanetWars, planet: Planet, target: Planet):
-        return planet.num_ships > target.num_ships
+        fleets = self.getFleetsToPlanet(game, target)
+        if(game.turns < START_TURNS):
+            if target.owner == PlanetWars.ENEMY or target.owner == PlanetWars.ME or fleets['ME'] > 0:
+                return False
+            return True
+        # else:
+        #     if(planet.num_ships < target.num_ships + self.getPointsToPlanet(planet, target)):
+        #         return False
+
+
+
+        return True
+
+    def get_orders(self, game: PlanetWars):
+        my_planets = game.get_planets_by_owner(PlanetWars.ME)
+        orders = []
+        for planet in my_planets:
+            targets = self.get_planets_to_attack(game, planet)
+            if len(targets) <= 0:
+                continue
+            for target in targets:
+                if self.should_attack(game, planet, target):
+                    orders.append(self.create_order(game, planet, target))
+                    break
+
+        return [order for order in orders if order]
 
 def get_random_map():
     """
@@ -164,7 +230,7 @@ def view_bots_battle():
     Requirements: Java should be installed on your device.
     """
     map_str = get_random_map()
-    run_and_view_battle(DreamTeam(), DreamTeamV1(), map_str)
+    run_and_view_battle(DreamTeam(), ETerror(), map_str)
 
 
 def check_bot():
@@ -174,11 +240,11 @@ def check_bot():
     So is AttackWeakestPlanetFromStrongestBot worse than the 2 other bots? The answer might surprise you.
     """
     maps = [get_random_map(), get_random_map()]
-    player_bot_to_test = AttackWeakestPlanetFromStrongestBot()
+    player_bot_to_test = DreamTeam()
     tester = TestBot(
         player=player_bot_to_test,
         competitors=[
-            DreamTeam(), DreamTeamV1()
+             ETerror()
         ],
         maps=maps
     )
@@ -188,6 +254,7 @@ def check_bot():
     pd.set_option('display.max_columns', 30)
     pd.set_option('expand_frame_repr', False)
 
+    return (tester.get_score_object())
     print(tester.get_testing_results_data_frame())
     print("\n\n")
     print(tester.get_score_object())
@@ -197,5 +264,6 @@ def check_bot():
 
 
 if __name__ == "__main__":
-    check_bot()
-    view_bots_battle()
+    for i in range(100):
+        print(check_bot())
+    # view_bots_battle()
