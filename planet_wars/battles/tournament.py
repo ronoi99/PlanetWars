@@ -7,7 +7,7 @@ import pandas as pd
 
 from dataclasses import dataclass
 
-from planet_wars import PLANET_WARS_MODULE_PATH
+from planet_wars import PLANET_WARS_MODULE_PATH, SHOW_GAME_JAR_PATH, TMP_DIR_PATH
 from planet_wars.engine.game_logic import GameManager
 from planet_wars.planet_wars import Player, PlanetWars, list_to_data_frame
 
@@ -327,15 +327,14 @@ class Tournament:
 
         :param battle_description_for_display: String representation of the battle for display
         """
-        view_path = os.path.join(PLANET_WARS_MODULE_PATH, "viewer", "ShowGame.jar")
         # in windows we need to save the battle to file because there is limit to the cmd command length of 8161 chars
         if os.name == "nt":
-            battle_file_path = os.path.join(PLANET_WARS_MODULE_PATH, "tmp", f"battle_{time.time()}.txt")
+            battle_file_path = os.path.join(TMP_DIR_PATH, f"battle_{time.time()}.txt")
             with open(battle_file_path, "w") as f:
                 f.write(battle_description_for_display)
-            command = f'type {battle_file_path} | java -jar {view_path}'
+            command = f'type {battle_file_path} | java -jar {SHOW_GAME_JAR_PATH}'
         else:
-            command = f'echo "{battle_description_for_display}" | java -jar {view_path}'
+            command = f'echo "{battle_description_for_display}" | java -jar {SHOW_GAME_JAR_PATH}'
         print(command)
         os.system(command)
 
