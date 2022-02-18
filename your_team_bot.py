@@ -77,10 +77,6 @@ class RonCoolBot(Player):
         score = (dest_planet.growth_rate * factor) / ships
         return PlanetToAttack(dest_planet, number_of_ships, score)
 
-    @staticmethod
-    def planet_score(planet: Planet, number_of_ships_at_arrival: int):
-        return (planet.growth_rate * (1 if planet.owner == PlanetWars.NEUTRAL else 2)) / number_of_ships_at_arrival
-
     def planet_we_can_attack_from(self, planet: Planet, game: PlanetWars):
         if planet.num_ships < 10:
             return False
