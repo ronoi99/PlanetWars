@@ -1,12 +1,11 @@
-import random
-from typing import Iterable, List
+from typing import Iterable
+
+import pandas as pd
 
 from baseline_bot import AttackWeakestPlanetFromStrongestBot, AttackEnemyWeakestPlanetFromStrongestBot, \
     AttackWeakestPlanetFromStrongestSmarterNumOfShipsBot, get_random_map
+from planet_wars.battles.tournament import run_and_view_battle, TestBot
 from planet_wars.planet_wars import Player, PlanetWars, Order, Planet
-from planet_wars.battles.tournament import get_map_by_id, run_and_view_battle, TestBot
-
-import pandas as pd
 
 
 class YourCoolBot(Player):
