@@ -26,15 +26,12 @@ https://www.python.org/downloads/
 pip install pandas:  
 `python3 -m pip install pandas`
 
-## Preparation for cyber4s
+## Preparation for data4s
 
-checkout cyber4s: `git checkout cyber4s_tournament`  
-create a branch with your team name: `git checkout -b cyber4s\TEAM_NAME`  
+Clone the repo `git@github.com:ronoi99/PlanetWars.git`  
+See the python file `baseline_bot.py` run it and make sure a battle window opens up.  
+Rename `your_team_bot.py` and the `YourCoolBot` class in it to your team name.  
+Start implementing your bot logic in the `YourCoolBot` class. Try to defeat the example bots.
 
-copy the baseline code to a folder with your team name:  
-copy `planet_wars\player_bots\baseline_code\baseline_bot.py` to a folder in this format 
-`planet_wars\player_bots\TEAM_NAME\TEAM_NAME_bot.py`
-
-run the baseline bot file and make sure a battle window opens up.   
-
-Commit and push your code. See your branch exists in github.
+When the round is up copy the file with your bot to the google drive in Round1/Round2 folder.  
+See link: https://drive.google.com/drive/folders/1V4WkNRNhU9JASQiPIrLKUDg0yMh47scM?usp=sharing
