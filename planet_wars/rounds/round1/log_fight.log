@@ -1,0 +1,446 @@
+/usr/local/bin/python3.6 /Users/ron/PycharmProjects/PlanetWars/planet_wars/battles/competition.py
+Round 1
+SOYsauce-ShrekBot	ShrekBot-Genghis_Khan	Genghis_Khan-boby	boby-Galaxyconqueror	Galaxyconqueror-mylbot	mylbot-LOL	LOL-avengers	avengers-The_average_group	The_average_group-PLS	PLS-TheTerminator	TheTerminator-Expansion_V1
+run battle between SOYsauce and ShrekBot
+Player 1 Wins
+run battle between ShrekBot and Genghis_Khan
+Player 2 Wins
+run battle between Genghis_Khan and boby
+Player 1 Wins
+run battle between boby and Galaxyconqueror
+Player Galaxyconqueror throw exception IndexError: list index out of range
+Player 1 Wins
+run battle between Galaxyconqueror and mylbot
+Player Galaxyconqueror throw exception IndexError: list index out of range
+Player 2 Wins
+run battle between mylbot and LOL
+Player mylbot throw exception ValueError: min() arg is an empty sequence
+Player 2 Wins
+run battle between LOL and avengers
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942780>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a90>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e48>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c88>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e80>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942160>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c50>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942320>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942278>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a58>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a99426d8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942860>, <planet_wars.planet_wars.Planet object at 0x7fb6a99427f0>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942da0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a58>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942320>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f28>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429e8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942940>, <planet_wars.planet_wars.Planet object at 0x7fb6a99421d0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942198>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942780>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942908>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942ef0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942518>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942160>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942978>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942da0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942940>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429e8>, <planet_wars.planet_wars.Planet object at 0x7fb6a99422b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942668>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942208>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e48>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c88>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942ef0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a90>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942390>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942cc0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942240>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942278>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942a58>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c88>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942cc0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942978>, <planet_wars.planet_wars.Planet object at 0x7fb6a99427f0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942320>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942860>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c50>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942668>, <planet_wars.planet_wars.Planet object at 0x7fb6a99426d8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942438>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e80>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942898>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942390>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942908>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c50>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e80>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a58>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942160>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942198>, <planet_wars.planet_wars.Planet object at 0x7fb6a99421d0>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942940>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942518>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942da0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f28>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942780>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942438>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942208>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942940>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f28>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942908>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942ef0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a90>, <planet_wars.planet_wars.Planet object at 0x7fb6a99422b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942278>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942cc0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942198>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e48>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c88>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942240>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429e8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942da0>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942320>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942cc0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942240>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942208>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942668>, <planet_wars.planet_wars.Planet object at 0x7fb6a99426d8>, <planet_wars.planet_wars.Planet object at 0x7fb6a99427f0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942390>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e80>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a90>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942860>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c50>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942898>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942978>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c88>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942f28>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c50>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942668>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942438>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a58>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e80>, <planet_wars.planet_wars.Planet object at 0x7fb6a99427f0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942780>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942860>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>, <planet_wars.planet_wars.Planet object at 0x7fb6a99421d0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942320>, <planet_wars.planet_wars.Planet object at 0x7fb6a99426d8>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942da0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942160>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e80>, <planet_wars.planet_wars.Planet object at 0x7fb6a99421d0>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c50>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942748>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a58>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f28>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429e8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942438>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942780>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942f28>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942780>, <planet_wars.planet_wars.Planet object at 0x7fb6a99421d0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942da0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c88>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e48>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429e8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942748>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942cc0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942978>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942390>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942198>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942908>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942cc0>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429e8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942208>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942278>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942710>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942860>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942898>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a90>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e80>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942630>, <planet_wars.planet_wars.Planet object at 0x7fb6a99427f0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942978>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c88>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942860>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942278>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e80>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942630>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c50>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942320>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942438>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f28>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a58>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942710>, <planet_wars.planet_wars.Planet object at 0x7fb6a99426d8>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942630>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942438>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f28>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942390>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942908>, <planet_wars.planet_wars.Planet object at 0x7fb6a99421d0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942780>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942198>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e48>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942748>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942160>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942198>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942438>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942390>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942da0>, <planet_wars.planet_wars.Planet object at 0x7fb6a99421d0>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e48>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f28>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429e8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c88>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942748>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942908>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942da0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942748>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429e8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942208>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c50>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a90>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942390>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942860>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c88>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942cc0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e48>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942710>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942208>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a58>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e80>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c50>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942860>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942278>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942320>, <planet_wars.planet_wars.Planet object at 0x7fb6a99426d8>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942160>, <planet_wars.planet_wars.Planet object at 0x7fb6a99426d8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f28>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942940>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942278>, <planet_wars.planet_wars.Planet object at 0x7fb6a99421d0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a58>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942828>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942438>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942780>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a99421d0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942940>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942748>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c50>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e48>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429e8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942908>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942cc0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942390>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942da0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942198>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942e48>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c50>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942cc0>, <planet_wars.planet_wars.Planet object at 0x7fb6a99427b8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e80>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f60>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942208>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942320>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942860>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c88>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a90>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a99426d8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942860>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942710>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942160>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942438>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942940>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942780>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a58>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942278>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942940>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942828>, <planet_wars.planet_wars.Planet object at 0x7fb6a99421d0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942198>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942748>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f28>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942da0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942908>, <planet_wars.planet_wars.Planet object at 0x7fb6a99424a8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c18>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942208>, <planet_wars.planet_wars.Planet object at 0x7fb6a99427b8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a90>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e48>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429e8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f60>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942390>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c88>, <planet_wars.planet_wars.Planet object at 0x7fb6a99426d8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942cc0>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942710>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a58>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942320>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942860>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e80>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942278>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942630>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942518>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942c18>, <planet_wars.planet_wars.Planet object at 0x7fb6a99424a8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a58>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942828>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f28>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942438>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942780>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942160>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942940>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942e48>, <planet_wars.planet_wars.Planet object at 0x7fb6a99426d8>, <planet_wars.planet_wars.Planet object at 0x7fb6a99424a8>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429e8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942390>, <planet_wars.planet_wars.Planet object at 0x7fb6a99421d0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942748>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942908>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942198>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f60>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942a58>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e80>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c50>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942208>, <planet_wars.planet_wars.Planet object at 0x7fb6a99426d8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942320>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942cc0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942860>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a90>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942160>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942940>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942518>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942438>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942780>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942710>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a99424a8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942f28>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942cf8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942908>, <planet_wars.planet_wars.Planet object at 0x7fb6a99421d0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c18>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942198>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942748>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942da0>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a99429e8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942208>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a58>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a90>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942390>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c50>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c88>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e48>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a99429b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>, <planet_wars.planet_wars.Planet object at 0x7fb6a99424a8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942828>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942438>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942630>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942668>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942518>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942cc0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942cf8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c18>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942da0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942278>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429e8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f28>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942a90>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c88>, <planet_wars.planet_wars.Planet object at 0x7fb6a99425f8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942208>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942198>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942240>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e48>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942320>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c50>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942160>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942630>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942518>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942860>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a99429e8>, <planet_wars.planet_wars.Planet object at 0x7fb6a99421d0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942278>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942ef0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c18>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f60>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942198>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942240>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942438>, <planet_wars.planet_wars.Planet object at 0x7fb6a99425f8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942390>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942748>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942160>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942ac8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e80>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942320>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942828>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c50>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942278>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a58>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942940>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429e8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f28>, <planet_wars.planet_wars.Planet object at 0x7fb6a99421d0>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942748>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942908>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942390>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942198>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a99426d8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942668>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942860>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942ac8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a90>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942a58>, <planet_wars.planet_wars.Planet object at 0x7fb6a99424a8>, <planet_wars.planet_wars.Planet object at 0x7fb6a99421d0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942da0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942940>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942cf8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942cc0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942eb8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e48>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942438>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942a90>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942ac8>, <planet_wars.planet_wars.Planet object at 0x7fb6a99426d8>, <planet_wars.planet_wars.Planet object at 0x7fb6a99425f8>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942a58>, <planet_wars.planet_wars.Planet object at 0x7fb6a99424a8>, <planet_wars.planet_wars.Planet object at 0x7fb6a99421d0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942da0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942940>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942438>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942748>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942198>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942cf8>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942e80>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942390>, <planet_wars.planet_wars.Planet object at 0x7fb6a99456d8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942ef0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c50>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942e48>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f28>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942518>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942710>, <planet_wars.planet_wars.Planet object at 0x7fb6a9945898>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a99429b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a99426d8>, <planet_wars.planet_wars.Planet object at 0x7fb6a99456d8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9945f98>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942208>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9945b70>, <planet_wars.planet_wars.Planet object at 0x7fb6a9945f98>, <planet_wars.planet_wars.Planet object at 0x7fb6a9945cc0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9945898>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942940>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a99452b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9945b70>, <planet_wars.planet_wars.Planet object at 0x7fb6a9945f98>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942780>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9945be0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c88>, <planet_wars.planet_wars.Planet object at 0x7fb6a99452b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a99424a8>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942240>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942898>, <planet_wars.planet_wars.Planet object at 0x7fb6a9945f28>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942908>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a99452e8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942978>, <planet_wars.planet_wars.Planet object at 0x7fb6a9945f28>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942438>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c18>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a99426d8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942668>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942ac8>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942f60>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942160>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c88>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942c18>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942748>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942908>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a99426d8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942668>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942ac8>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942160>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f60>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942940>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942748>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942908>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942198>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a99426d8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942668>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942ac8>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942a58>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c88>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942c18>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942438>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a99429b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a90>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a99422b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942630>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942eb8>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942e48>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942320>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942390>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942940>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942908>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a99421d0>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942828>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942278>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942240>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a99427f0>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942630>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+Player 1 Wins
+run battle between avengers and The_average_group
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942438>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942828>, <planet_wars.planet_wars.Planet object at 0x7fb6a99421d0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942630>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942748>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942198>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c50>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942908>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a58>, <planet_wars.planet_wars.Planet object at 0x7fb6a99427b8>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c88>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942978>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429e8>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942710>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a90>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942ef0>, <planet_wars.planet_wars.Planet object at 0x7fb6a99425f8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942208>, <planet_wars.planet_wars.Planet object at 0x7fb6a99424a8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942860>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942278>, <planet_wars.planet_wars.Planet object at 0x7fb6a99422b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942390>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c18>, <planet_wars.planet_wars.Planet object at 0x7fb6a99421d0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942940>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942518>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942160>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942eb8>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942198>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f28>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942668>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942da0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942780>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942ef0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942828>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f60>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942cc0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e10>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942ac8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e80>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>, <planet_wars.planet_wars.Planet object at 0x7fb6a99424a8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942710>, <planet_wars.planet_wars.Planet object at 0x7fb6a99427f0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a58>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a99427b8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c88>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942438>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429e8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c50>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942908>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942978>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942748>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942630>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942710>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a90>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942ef0>, <planet_wars.planet_wars.Planet object at 0x7fb6a99425f8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942208>, <planet_wars.planet_wars.Planet object at 0x7fb6a99424a8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942860>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942278>, <planet_wars.planet_wars.Planet object at 0x7fb6a99422b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942390>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c18>, <planet_wars.planet_wars.Planet object at 0x7fb6a99421d0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942940>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942518>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942160>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942cc0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e80>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942908>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942828>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e10>, <planet_wars.planet_wars.Planet object at 0x7fb6a99425f8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942ef0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942da0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942668>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942ac8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942eb8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a90>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f60>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942780>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f28>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942198>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a58>, <planet_wars.planet_wars.Planet object at 0x7fb6a99427f0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942748>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c50>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f28>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942438>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e80>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c88>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942908>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942828>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>, <planet_wars.planet_wars.Planet object at 0x7fb6a99427b8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942978>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942978>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942710>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942390>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942630>, <planet_wars.planet_wars.Planet object at 0x7fb6a99424a8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942860>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942940>, <planet_wars.planet_wars.Planet object at 0x7fb6a99427f0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942278>, <planet_wars.planet_wars.Planet object at 0x7fb6a99421d0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942748>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c18>, <planet_wars.planet_wars.Planet object at 0x7fb6a99422b0>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942278>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942668>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942ac8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942390>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e10>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942cc0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942da0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942160>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942eb8>, <planet_wars.planet_wars.Planet object at 0x7fb6a99425f8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942940>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942ef0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a90>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942438>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c50>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942908>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e80>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942cc0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f60>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942ac8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942198>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942780>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942ef0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f28>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942828>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429b0>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942630>, <planet_wars.planet_wars.Planet object at 0x7fb6a99421d0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942978>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942198>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c50>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942748>, <planet_wars.planet_wars.Planet object at 0x7fb6a99427b8>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c88>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942860>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a58>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942518>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942160>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942710>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942978>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942630>, <planet_wars.planet_wars.Planet object at 0x7fb6a99424a8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c18>, <planet_wars.planet_wars.Planet object at 0x7fb6a99427f0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942748>, <planet_wars.planet_wars.Planet object at 0x7fb6a99421d0>, <planet_wars.planet_wars.Planet object at 0x7fb6a99422b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942278>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942668>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942eb8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942160>, <planet_wars.planet_wars.Planet object at 0x7fb6a99421d0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942278>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942518>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e10>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942940>, <planet_wars.planet_wars.Planet object at 0x7fb6a99422b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942208>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942390>, <planet_wars.planet_wars.Planet object at 0x7fb6a99425f8>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942da0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942198>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a90>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942cc0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f60>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f28>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942ef0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942160>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942780>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942eb8>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c88>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942198>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942780>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f28>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942eb8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942828>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e80>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942908>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942c50>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942630>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942438>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c88>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942748>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942828>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942860>, <planet_wars.planet_wars.Planet object at 0x7fb6a99427b8>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942a58>, <planet_wars.planet_wars.Planet object at 0x7fb6a99422b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c50>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942860>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429e8>, <planet_wars.planet_wars.Planet object at 0x7fb6a99424a8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942978>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942438>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942630>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942748>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942710>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942940>, <planet_wars.planet_wars.Planet object at 0x7fb6a99424a8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942748>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429e8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942518>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c88>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942630>, <planet_wars.planet_wars.Planet object at 0x7fb6a99427f0>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942668>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e10>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c18>, <planet_wars.planet_wars.Planet object at 0x7fb6a99421d0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942278>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429e8>, <planet_wars.planet_wars.Planet object at 0x7fb6a99422b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942710>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942a90>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942eb8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942390>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942940>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942160>, <planet_wars.planet_wars.Planet object at 0x7fb6a99421d0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942208>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942668>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942780>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942ef0>, <planet_wars.planet_wars.Planet object at 0x7fb6a99425f8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942eb8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942208>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a90>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942cc0>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942ac8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942da0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942198>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e80>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f60>, <planet_wars.planet_wars.Planet object at 0x7fb6a99425f8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942780>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942e80>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942198>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f28>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942eb8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942828>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942198>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942978>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942438>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942908>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c50>, <planet_wars.planet_wars.Planet object at 0x7fb6a99427b8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942438>, <planet_wars.planet_wars.Planet object at 0x7fb6a99424a8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942978>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942860>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429e8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a58>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942748>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942518>, <planet_wars.planet_wars.Planet object at 0x7fb6a99427f0>, <planet_wars.planet_wars.Planet object at 0x7fb6a99421d0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942278>, <planet_wars.planet_wars.Planet object at 0x7fb6a99424a8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942978>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c18>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942390>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942278>, <planet_wars.planet_wars.Planet object at 0x7fb6a99421d0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942940>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942630>, <planet_wars.planet_wars.Planet object at 0x7fb6a99422b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942710>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942390>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942940>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942160>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a90>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942208>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942518>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942668>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a99425f8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942390>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a90>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942ef0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942160>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942710>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e10>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942e80>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942ef0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a90>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942668>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942cc0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f60>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942f28>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942780>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942ef0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e10>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942eb8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942da0>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942908>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f28>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942e80>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f60>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942ac8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942198>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942da0>, <planet_wars.planet_wars.Planet object at 0x7fb6a99427b8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942828>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f28>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c50>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429b0>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942860>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942908>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c50>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942438>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a99429e8>, <planet_wars.planet_wars.Planet object at 0x7fb6a99427b8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942748>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c88>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a99424a8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942860>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942748>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a58>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942978>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942940>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942518>, <planet_wars.planet_wars.Planet object at 0x7fb6a99424a8>, <planet_wars.planet_wars.Planet object at 0x7fb6a99421d0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c18>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942cc0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942668>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942208>, <planet_wars.planet_wars.Planet object at 0x7fb6a99425f8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942390>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942f28>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942eb8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942ef0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942780>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942da0>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942c88>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942438>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a58>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>, <planet_wars.planet_wars.Planet object at 0x7fb6a99427b8>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942208>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c18>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942518>, <planet_wars.planet_wars.Planet object at 0x7fb6a99422b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a99421d0>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942e10>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f60>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a90>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942780>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942f28>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c50>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942828>, <planet_wars.planet_wars.Planet object at 0x7fb6a99427b8>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942630>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942518>, <planet_wars.planet_wars.Planet object at 0x7fb6a99427f0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942710>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a99425f8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a90>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942160>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942eb8>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942f28>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942828>, <planet_wars.planet_wars.Planet object at 0x7fb6a99427b8>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a99429e8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942630>, <planet_wars.planet_wars.Planet object at 0x7fb6a99422b0>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942eb8>, <planet_wars.planet_wars.Planet object at 0x7fb6a99425f8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942160>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942860>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429b0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c50>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942518>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c18>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942208>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942ef0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942da0>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f28>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942860>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942748>, <planet_wars.planet_wars.Planet object at 0x7fb6a99424a8>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942208>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942668>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942cc0>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942828>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942c88>, <planet_wars.planet_wars.Planet object at 0x7fb6a99429b0>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a99424a8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942518>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942278>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942e10>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942ac8>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942a90>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942748>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942908>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942438>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942518>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942ef0>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942a90>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942cc0>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942c50>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942908>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942630>, <planet_wars.planet_wars.Planet object at 0x7fb6a99427f0>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942390>, <planet_wars.planet_wars.Planet object at 0x7fb6a99425f8>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942198>, <planet_wars.planet_wars.Planet object at 0x7fb6a9942f28>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942978>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942278>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942f60>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942c50>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942a58>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a99422b0>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942e10>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942780>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a99421d0>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942940>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942da0>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942fd0>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942ef0>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942eb8>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942c88>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a99422b0>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942eb8>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942860>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a99422b0>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a9942eb8>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a99427b8>]
+[<planet_wars.planet_wars.Planet object at 0x7fb6a99424a8>]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+Player 2 Wins
+run battle between The_average_group and PLS
+Player 1 Wins
+run battle between PLS and TheTerminator
+Player 2 Wins
+run battle between TheTerminator and Expansion_V1
+Player Expansion_V1 throw exception IndexError: list index out of range
+Player 1 Wins
+Round 2
+SOYsauce-Genghis_Khan	Genghis_Khan-boby	boby-mylbot	mylbot-LOL	LOL-The_average_group	The_average_group-TheTerminator
+run battle between SOYsauce and Genghis_Khan
+Player 1 Wins
+run battle between Genghis_Khan and boby
+Player 1 Wins
+run battle between boby and mylbot
+Player mylbot throw exception ValueError: min() arg is an empty sequence
+Player 1 Wins
+run battle between mylbot and LOL
+Player mylbot throw exception ValueError: min() arg is an empty sequence
+Player 2 Wins
+run battle between LOL and The_average_group
+Player 2 Wins
+run battle between The_average_group and TheTerminator
+Player The_average_group throw exception AttributeError: type object 'Planet' has no attribute 'x'
+Player 2 Wins
+Round 3
+SOYsauce-Genghis_Khan	Genghis_Khan-boby	boby-LOL	LOL-The_average_group	The_average_group-TheTerminator
+run battle between SOYsauce and Genghis_Khan
+Player 1 Wins
+run battle between Genghis_Khan and boby
+Player 1 Wins
+run battle between boby and LOL
+Player 2 Wins
+run battle between LOL and The_average_group
+Player 2 Wins
+run battle between The_average_group and TheTerminator
+Player The_average_group throw exception AttributeError: type object 'Planet' has no attribute 'x'
+Player 2 Wins
+Round 4
+SOYsauce-Genghis_Khan	Genghis_Khan-LOL	LOL-The_average_group	The_average_group-TheTerminator
+run battle between SOYsauce and Genghis_Khan
+Player 1 Wins
+run battle between Genghis_Khan and LOL
+Player 2 Wins
+run battle between LOL and The_average_group
+Player 2 Wins
+run battle between The_average_group and TheTerminator
+Player The_average_group throw exception AttributeError: type object 'Planet' has no attribute 'x'
+Player 2 Wins
+Round 5
+SOYsauce-LOL	LOL-The_average_group	The_average_group-TheTerminator
+run battle between SOYsauce and LOL
+Player 1 Wins
+run battle between LOL and The_average_group
+Player 2 Wins
+run battle between The_average_group and TheTerminator
+Player The_average_group throw exception AttributeError: type object 'Planet' has no attribute 'x'
+Player 2 Wins
+Round 6
+SOYsauce-The_average_group	The_average_group-TheTerminator
+run battle between SOYsauce and The_average_group
+Player 1 Wins
+run battle between The_average_group and TheTerminator
+Player The_average_group throw exception AttributeError: type object 'Planet' has no attribute 'x'
+Player 2 Wins
+Round 7
+SOYsauce-TheTerminator
+run battle between SOYsauce and TheTerminator
+Player 1 Wins
+Winner is SOYsauce
+
+
+
+
+Tournament Summary:
+
+
+SOYsauce-ShrekBot	ShrekBot-Genghis_Khan	Genghis_Khan-boby	boby-Galaxyconqueror	Galaxyconqueror-mylbot	mylbot-LOL	LOL-avengers	avengers-The_average_group	The_average_group-PLS	PLS-TheTerminator	TheTerminator-Expansion_V1
+ SOYsauce	Genghis_Khan	Genghis_Khan	boby	mylbot	LOL	LOL	The_average_group	The_average_group	TheTerminator	TheTerminator
+SOYsauce-Genghis_Khan	Genghis_Khan-boby	boby-mylbot	mylbot-LOL	LOL-The_average_group	The_average_group-TheTerminator
+ SOYsauce	Genghis_Khan	boby	LOL	The_average_group	TheTerminator
+SOYsauce-Genghis_Khan	Genghis_Khan-boby	boby-LOL	LOL-The_average_group	The_average_group-TheTerminator
+ SOYsauce	Genghis_Khan	LOL	The_average_group	TheTerminator
+SOYsauce-Genghis_Khan	Genghis_Khan-LOL	LOL-The_average_group	The_average_group-TheTerminator
+ SOYsauce	LOL	The_average_group	TheTerminator
+SOYsauce-LOL	LOL-The_average_group	The_average_group-TheTerminator
+ SOYsauce	The_average_group	TheTerminator
+SOYsauce-The_average_group	The_average_group-TheTerminator
+ SOYsauce	TheTerminator
+SOYsauce-TheTerminator
+ SOYsauce
+               player_1_name      player_2_name  winner   finish_state  player_1_score  player_2_score  turns                            description_for_display
+battle_id
+1                   SOYsauce           ShrekBot       1  Player 1 Wins            1458               0     73  13.0,13.0,0,36,4:3.7820839879289565,12.5713199...
+2                   ShrekBot       Genghis_Khan       2  Player 2 Wins             837            3700    200  13.0,13.0,0,36,4:3.7820839879289565,12.5713199...
+3               Genghis_Khan               boby       1  Player 1 Wins            2318            2150    200  13.0,13.0,0,36,4:3.7820839879289565,12.5713199...
+4                       boby    Galaxyconqueror       1  Player 1 Wins            2241            2647    148  13.0,13.0,0,36,4:3.7820839879289565,12.5713199...
+5            Galaxyconqueror             mylbot       2  Player 2 Wins             367            2180    121  13.0,13.0,0,36,4:3.7820839879289565,12.5713199...
+6                     mylbot                LOL       2  Player 2 Wins             293            1979    116  13.0,13.0,0,36,4:3.7820839879289565,12.5713199...
+7                        LOL           avengers       1  Player 1 Wins            5623            2658    200  13.0,13.0,0,36,4:3.7820839879289565,12.5713199...
+8                   avengers  The_average_group       2  Player 2 Wins               0            1724     98  13.0,13.0,0,36,4:3.7820839879289565,12.5713199...
+9          The_average_group                PLS       1  Player 1 Wins            2464             795    200  13.0,13.0,0,36,4:3.7820839879289565,12.5713199...
+10                       PLS      TheTerminator       2  Player 2 Wins               0             538     44  13.0,13.0,0,36,4:3.7820839879289565,12.5713199...
+11             TheTerminator       Expansion_V1       1  Player 1 Wins            4154             172    155  13.0,13.0,0,36,4:3.7820839879289565,12.5713199...
+12                  SOYsauce       Genghis_Khan       1  Player 1 Wins            7351             754    200  13.0,13.0,0,36,4:3.7820839879289565,12.5713199...
+13              Genghis_Khan               boby       1  Player 1 Wins            2318            2150    200  13.0,13.0,0,36,4:3.7820839879289565,12.5713199...
+14                      boby             mylbot       1  Player 1 Wins            1717             201    102  13.0,13.0,0,36,4:3.7820839879289565,12.5713199...
+15                    mylbot                LOL       2  Player 2 Wins             293            1979    116  13.0,13.0,0,36,4:3.7820839879289565,12.5713199...
+16                       LOL  The_average_group       2  Player 2 Wins               0            2594    132  13.0,13.0,0,36,4:3.7820839879289565,12.5713199...
+17         The_average_group      TheTerminator       2  Player 2 Wins              49            1543     88  13.0,13.0,0,36,4:3.7820839879289565,12.5713199...
+18                  SOYsauce       Genghis_Khan       1  Player 1 Wins            7351             754    200  13.0,13.0,0,36,4:3.7820839879289565,12.5713199...
+19              Genghis_Khan               boby       1  Player 1 Wins            2318            2150    200  13.0,13.0,0,36,4:3.7820839879289565,12.5713199...
+20                      boby                LOL       2  Player 2 Wins            2986            3786    200  13.0,13.0,0,36,4:3.7820839879289565,12.5713199...
+21                       LOL  The_average_group       2  Player 2 Wins               0            2594    132  13.0,13.0,0,36,4:3.7820839879289565,12.5713199...
+22         The_average_group      TheTerminator       2  Player 2 Wins              49            1543     88  13.0,13.0,0,36,4:3.7820839879289565,12.5713199...
+23                  SOYsauce       Genghis_Khan       1  Player 1 Wins            7351             754    200  13.0,13.0,0,36,4:3.7820839879289565,12.5713199...
+24              Genghis_Khan                LOL       2  Player 2 Wins            1052            3138    200  13.0,13.0,0,36,4:3.7820839879289565,12.5713199...
+25                       LOL  The_average_group       2  Player 2 Wins               0            2594    132  13.0,13.0,0,36,4:3.7820839879289565,12.5713199...
+26         The_average_group      TheTerminator       2  Player 2 Wins              49            1543     88  13.0,13.0,0,36,4:3.7820839879289565,12.5713199...
+27                  SOYsauce                LOL       1  Player 1 Wins            3047               0    173  13.0,13.0,0,36,4:3.7820839879289565,12.5713199...
+28                       LOL  The_average_group       2  Player 2 Wins               0            2594    132  13.0,13.0,0,36,4:3.7820839879289565,12.5713199...
+29         The_average_group      TheTerminator       2  Player 2 Wins              49            1543     88  13.0,13.0,0,36,4:3.7820839879289565,12.5713199...
+30                  SOYsauce  The_average_group       1  Player 1 Wins            1701               0     89  13.0,13.0,0,36,4:3.7820839879289565,12.5713199...
+31         The_average_group      TheTerminator       2  Player 2 Wins              49            1543     88  13.0,13.0,0,36,4:3.7820839879289565,12.5713199...
+32                  SOYsauce      TheTerminator       1  Player 1 Wins            1850               0    122  13.0,13.0,0,36,4:3.7820839879289565,12.5713199...
+
+Process finished with exit code 0
