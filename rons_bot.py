@@ -2,6 +2,7 @@ from typing import Iterable
 
 import pandas as pd
 
+from arrakis_papaya_pro_winner import Arrakis
 from baseline_bot import AttackWeakestPlanetFromStrongestBot, get_random_map
 from planet_wars.battles.tournament import run_and_view_battle, TestBot
 from planet_wars.planet_wars import Player, PlanetWars, Order, Planet, Fleet
@@ -91,8 +92,13 @@ class RonCoolBot(Player):
         :param game: PlanetWars object representing the map - use it to fetch all the planets and flees in the map.
         :return: List of orders to execute, each order sends ship from a planet I own to other planet.
         """
+        if game.turns == 0:
+            return []
+
         orders = []
-        for source_planet in game.get_planets_by_owner(PlanetWars.ME):
+        my_planets = game.get_planets_by_owner(PlanetWars.ME)
+        my_planets.sort(key=lambda planet: planet.growth_rate)
+        for source_planet in my_planets:
             if not self.planet_we_can_attack_from(source_planet, game):
                 continue
 
@@ -128,7 +134,7 @@ def view_bots_battle():
     Requirements: Java should be installed on your device.
     """
     map_str = get_random_map()
-    run_and_view_battle(AttackWeakestPlanetFromStrongestBot(), RonCoolBot(), map_str)
+    run_and_view_battle(Arrakis(), RonCoolBot(), map_str)
 
 
 def check_bot():
@@ -142,7 +148,7 @@ def check_bot():
     tester = TestBot(
         player=player_bot_to_test,
         competitors=[
-            AttackWeakestPlanetFromStrongestBot()
+            Arrakis()
         ],
         maps=maps
     )
