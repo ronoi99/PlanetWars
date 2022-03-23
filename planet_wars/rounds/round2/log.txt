@@ -1,0 +1,94 @@
+/usr/local/bin/python3.6 /Users/ron/PycharmProjects/PlanetWars/planet_wars/battles/competition.py
+Round 1
+AlexDavidBot-RonenYuvalBot	RonenYuvalBot-TheKinders	TheKinders-TeamRocketBot	TeamRocketBot-DjangoBot	DjangoBot-ET	AlexDavidBot-ET
+run battle between AlexDavidBot and RonenYuvalBot
+Player 1 Wins
+run battle between RonenYuvalBot and TheKinders
+Player 1 Wins
+run battle between TheKinders and TeamRocketBot
+-30
+-38
+-36
+-25
+-29
+-37
+-35
+-24
+-28
+-36
+-34
+-23
+-27
+-35
+-33
+-22
+-26
+-34
+-32
+-21
+Player 2 Wins
+run battle between TeamRocketBot and DjangoBot
+Player 1 Wins
+run battle between DjangoBot and ET
+Player 2 Wins
+run battle between AlexDavidBot and ET
+Player 1 Wins
+Round 2
+RonenYuvalBot-TeamRocketBot	TeamRocketBot-ET	ET-AlexDavidBot	RonenYuvalBot-AlexDavidBot
+run battle between RonenYuvalBot and TeamRocketBot
+Player 1 Wins
+run battle between TeamRocketBot and ET
+Player 1 Wins
+run battle between ET and AlexDavidBot
+Player 2 Wins
+run battle between RonenYuvalBot and AlexDavidBot
+Player 2 Wins
+Round 3
+RonenYuvalBot-TeamRocketBot	TeamRocketBot-AlexDavidBot	RonenYuvalBot-AlexDavidBot
+run battle between RonenYuvalBot and TeamRocketBot
+Player 1 Wins
+run battle between TeamRocketBot and AlexDavidBot
+Player 2 Wins
+run battle between RonenYuvalBot and AlexDavidBot
+Player 2 Wins
+Round 4
+RonenYuvalBot-AlexDavidBot	RonenYuvalBot-AlexDavidBot
+run battle between RonenYuvalBot and AlexDavidBot
+Player 2 Wins
+run battle between RonenYuvalBot and AlexDavidBot
+Player 2 Wins
+Winner is AlexDavidBot
+
+
+
+
+Tournament Summary:
+
+
+AlexDavidBot-RonenYuvalBot	RonenYuvalBot-TheKinders	TheKinders-TeamRocketBot	TeamRocketBot-DjangoBot	DjangoBot-ET	AlexDavidBot-ET
+ AlexDavidBot	RonenYuvalBot	TeamRocketBot	TeamRocketBot	ET	AlexDavidBot
+RonenYuvalBot-TeamRocketBot	TeamRocketBot-ET	ET-AlexDavidBot	RonenYuvalBot-AlexDavidBot
+ RonenYuvalBot	TeamRocketBot	AlexDavidBot	AlexDavidBot
+RonenYuvalBot-TeamRocketBot	TeamRocketBot-AlexDavidBot	RonenYuvalBot-AlexDavidBot
+ RonenYuvalBot	AlexDavidBot	AlexDavidBot
+RonenYuvalBot-AlexDavidBot	RonenYuvalBot-AlexDavidBot
+ AlexDavidBot	AlexDavidBot
+           player_1_name  player_2_name  winner   finish_state  player_1_score  player_2_score  turns                            description_for_display
+battle_id
+1           AlexDavidBot  RonenYuvalBot       1  Player 1 Wins             976               0     83  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+2          RonenYuvalBot     TheKinders       1  Player 1 Wins             769               0     66  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+3             TheKinders  TeamRocketBot       2  Player 2 Wins               0             741     51  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+4          TeamRocketBot      DjangoBot       1  Player 1 Wins             896               0     86  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+5              DjangoBot             ET       2  Player 2 Wins               0             586     47  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+6           AlexDavidBot             ET       1  Player 1 Wins             953               0     63  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+7          RonenYuvalBot  TeamRocketBot       1  Player 1 Wins            1123               0     86  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+8          TeamRocketBot             ET       1  Player 1 Wins             634               0     46  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+9                     ET   AlexDavidBot       2  Player 2 Wins               0            1147     72  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+10         RonenYuvalBot   AlexDavidBot       2  Player 2 Wins               0             937     83  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+11         RonenYuvalBot  TeamRocketBot       1  Player 1 Wins            1123               0     86  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+12         TeamRocketBot   AlexDavidBot       2  Player 2 Wins               0             808     64  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+13         RonenYuvalBot   AlexDavidBot       2  Player 2 Wins               0             937     83  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+14         RonenYuvalBot   AlexDavidBot       2  Player 2 Wins               0             937     83  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+15         RonenYuvalBot   AlexDavidBot       2  Player 2 Wins               0             937     83  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+
+Process finished with exit code 0
