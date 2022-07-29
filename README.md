@@ -26,7 +26,7 @@ https://www.python.org/downloads/
 pip install pandas:  
 `python3 -m pip install pandas`
 
-## Preparation for data4s
+## Preparations
 
 Clone the repo `git@github.com:ronoi99/PlanetWars.git`  
 See the python file `baseline_bot.py` run it and make sure a battle window opens up.  
