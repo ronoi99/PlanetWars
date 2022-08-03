@@ -1,0 +1,246 @@
+/Users/ron/datascience/venv/bin/python /Users/ron/PlanetWars/planet_wars/battles/competition.py
+Round 1
+HorneyMonkey-Kvutza6	Kvutza6-YahmamBot	YahmamBot-tba	tba-FireflyZ_Bot	FireflyZ_Bot-shmerlingBot	shmerlingBot-americanPy	americanPy-awasomeBot	awasomeBot-the_killers	the_killers-Wookies	Wookies-Undefined	Undefined-GirlsPowerlBot	HorneyMonkey-GirlsPowerlBot
+run battle between HorneyMonkey and Kvutza6
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+Player 1 Wins
+run battle between Kvutza6 and YahmamBot
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+i need reinforsments
+Player Kvutza6 throw exception IndexError: list index out of range
+Player 2 Wins
+run battle between YahmamBot and tba
+Player 2 Wins
+run battle between tba and FireflyZ_Bot
+Player 2 Wins
+run battle between FireflyZ_Bot and shmerlingBot
+Player 1 Wins
+run battle between shmerlingBot and americanPy
+Player 1 Wins
+run battle between americanPy and awasomeBot
+Player 2 Wins
+run battle between awasomeBot and the_killers
+Player 1 Wins
+run battle between the_killers and Wookies
+Player 1 Wins
+run battle between Wookies and Undefined
+Player 2 Wins
+run battle between Undefined and GirlsPowerlBot
+Player 1 Wins
+run battle between HorneyMonkey and GirlsPowerlBot
+Player 1 Wins
+Round 2
+YahmamBot-tba	tba-FireflyZ_Bot	FireflyZ_Bot-shmerlingBot	shmerlingBot-awasomeBot	awasomeBot-the_killers	the_killers-Undefined	Undefined-HorneyMonkey	YahmamBot-HorneyMonkey
+run battle between YahmamBot and tba
+Player 2 Wins
+run battle between tba and FireflyZ_Bot
+Player 2 Wins
+run battle between FireflyZ_Bot and shmerlingBot
+Player 1 Wins
+run battle between shmerlingBot and awasomeBot
+Player 2 Wins
+run battle between awasomeBot and the_killers
+Player 1 Wins
+run battle between the_killers and Undefined
+Player 2 Wins
+run battle between Undefined and HorneyMonkey
+Player 2 Wins
+run battle between YahmamBot and HorneyMonkey
+Player 2 Wins
+Round 3
+tba-FireflyZ_Bot	FireflyZ_Bot-awasomeBot	awasomeBot-Undefined	Undefined-HorneyMonkey	tba-HorneyMonkey
+run battle between tba and FireflyZ_Bot
+Player 2 Wins
+run battle between FireflyZ_Bot and awasomeBot
+Player 2 Wins
+run battle between awasomeBot and Undefined
+Player 1 Wins
+run battle between Undefined and HorneyMonkey
+Player 2 Wins
+run battle between tba and HorneyMonkey
+Player 2 Wins
+Round 4
+FireflyZ_Bot-awasomeBot	awasomeBot-HorneyMonkey	FireflyZ_Bot-HorneyMonkey
+run battle between FireflyZ_Bot and awasomeBot
+Player 2 Wins
+run battle between awasomeBot and HorneyMonkey
+Player 1 Wins
+run battle between FireflyZ_Bot and HorneyMonkey
+Player 2 Wins
+Round 5
+awasomeBot-HorneyMonkey	awasomeBot-HorneyMonkey
+run battle between awasomeBot and HorneyMonkey
+Player 1 Wins
+run battle between awasomeBot and HorneyMonkey
+Player 1 Wins
+Winner is awasomeBot
+
+
+
+
+Tournament Summary:
+
+
+HorneyMonkey-Kvutza6	Kvutza6-YahmamBot	YahmamBot-tba	tba-FireflyZ_Bot	FireflyZ_Bot-shmerlingBot	shmerlingBot-americanPy	americanPy-awasomeBot	awasomeBot-the_killers	the_killers-Wookies	Wookies-Undefined	Undefined-GirlsPowerlBot	HorneyMonkey-GirlsPowerlBot
+ HorneyMonkey	YahmamBot	tba	FireflyZ_Bot	FireflyZ_Bot	shmerlingBot	awasomeBot	awasomeBot	the_killers	Undefined	Undefined	HorneyMonkey
+YahmamBot-tba	tba-FireflyZ_Bot	FireflyZ_Bot-shmerlingBot	shmerlingBot-awasomeBot	awasomeBot-the_killers	the_killers-Undefined	Undefined-HorneyMonkey	YahmamBot-HorneyMonkey
+ tba	FireflyZ_Bot	FireflyZ_Bot	awasomeBot	awasomeBot	Undefined	HorneyMonkey	HorneyMonkey
+tba-FireflyZ_Bot	FireflyZ_Bot-awasomeBot	awasomeBot-Undefined	Undefined-HorneyMonkey	tba-HorneyMonkey
+ FireflyZ_Bot	awasomeBot	awasomeBot	HorneyMonkey	HorneyMonkey
+FireflyZ_Bot-awasomeBot	awasomeBot-HorneyMonkey	FireflyZ_Bot-HorneyMonkey
+ awasomeBot	awasomeBot	HorneyMonkey
+awasomeBot-HorneyMonkey	awasomeBot-HorneyMonkey
+ awasomeBot	awasomeBot
+          player_1_name   player_2_name  winner   finish_state  player_1_score  player_2_score  turns                            description_for_display
+battle_id
+1          HorneyMonkey         Kvutza6       1  Player 1 Wins             781               0    102  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+2               Kvutza6       YahmamBot       2  Player 2 Wins            2438              55    159  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+3             YahmamBot             tba       2  Player 2 Wins               0            1518    115  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+4                   tba    FireflyZ_Bot       2  Player 2 Wins               0            1377    141  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+5          FireflyZ_Bot    shmerlingBot       1  Player 1 Wins            4392               0    190  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+6          shmerlingBot      americanPy       1  Player 1 Wins            1617               0    146  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+7            americanPy      awasomeBot       2  Player 2 Wins               0             866     96  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+8            awasomeBot     the_killers       1  Player 1 Wins            2147               0    118  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+9           the_killers         Wookies       1  Player 1 Wins            2774               0    197  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+10              Wookies       Undefined       2  Player 2 Wins               0            1152     83  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+11            Undefined  GirlsPowerlBot       1  Player 1 Wins            6179            1100    200  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+12         HorneyMonkey  GirlsPowerlBot       1  Player 1 Wins            1003               0     75  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+13            YahmamBot             tba       2  Player 2 Wins               0            1518    115  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+14                  tba    FireflyZ_Bot       2  Player 2 Wins               0            1377    141  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+15         FireflyZ_Bot    shmerlingBot       1  Player 1 Wins            4392               0    190  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+16         shmerlingBot      awasomeBot       2  Player 2 Wins               0            1409     97  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+17           awasomeBot     the_killers       1  Player 1 Wins            2147               0    118  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+18          the_killers       Undefined       2  Player 2 Wins               0            3431    172  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+19            Undefined    HorneyMonkey       2  Player 2 Wins               0            1022     77  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+20            YahmamBot    HorneyMonkey       2  Player 2 Wins               0             739     73  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+21                  tba    FireflyZ_Bot       2  Player 2 Wins               0            1377    141  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+22         FireflyZ_Bot      awasomeBot       2  Player 2 Wins               0            1113     95  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+23           awasomeBot       Undefined       1  Player 1 Wins            1151               0     98  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+24            Undefined    HorneyMonkey       2  Player 2 Wins               0            1022     77  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+25                  tba    HorneyMonkey       2  Player 2 Wins               0             862    103  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+26         FireflyZ_Bot      awasomeBot       2  Player 2 Wins               0            1113     95  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+27           awasomeBot    HorneyMonkey       1  Player 1 Wins            1188               0    148  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+28         FireflyZ_Bot    HorneyMonkey       2  Player 2 Wins               0            1101    131  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+29           awasomeBot    HorneyMonkey       1  Player 1 Wins            1188               0    148  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+30           awasomeBot    HorneyMonkey       1  Player 1 Wins            1188               0    148  15.0,15.0,0,43,1:11.114072097364033,22.6455344...
+
+Process finished with exit code 0
