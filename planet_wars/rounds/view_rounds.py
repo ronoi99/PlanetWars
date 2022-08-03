@@ -56,4 +56,4 @@ if __name__ == '__main__':
     # print_df(get_player_results_df(2))
 
     br = get_battle_results_df(1)
-    view_battle(br, 7)  # 27 & 44
+    view_battle(br, 55)  # 27 & 44

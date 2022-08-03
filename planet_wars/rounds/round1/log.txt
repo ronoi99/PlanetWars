@@ -1,0 +1,2767 @@
+/Users/ron/datascience/venv/bin/python /Users/ron/PlanetWars/planet_wars/battles/competition.py
+Round 1
+shmerlingBot-FireflyZ_Bot	FireflyZ_Bot-the_killers	the_killers-Rust_react_gulp	Rust_react_gulp-tba	tba-Undefined	Undefined-Kvutza6	Kvutza6-americanPy	americanPy-GirlsPowerlBot	GirlsPowerlBot-awasomeBot	awasomeBot-YahmamBot	shmerlingBot-YahmamBot
+run battle between shmerlingBot and FireflyZ_Bot
+Player 1 Wins
+run battle between FireflyZ_Bot and the_killers
+Player 2 Wins
+run battle between the_killers and Rust_react_gulp
+Player 1 Wins
+run battle between Rust_react_gulp and tba
+Player 2 Wins
+run battle between tba and Undefined
+Player 2 Wins
+run battle between Undefined and Kvutza6
+2 4 50
+2 4 27
+2 4 16
+2 4 11
+2 4 8
+2 4 6
+2 4 6
+2 4 5
+2 4 5
+2 4 5
+2 4 5
+2 4 5
+2 4 5
+2 4 5
+2 4 5
+2 4 5
+2 4 5
+2 4 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+0 25 1
+0 25 5
+0 25 8
+0 25 9
+0 25 9
+0 25 10
+0 25 10
+0 25 10
+2 25 25
+2 25 15
+2 25 10
+2 25 8
+2 25 6
+2 25 6
+2 25 5
+2 25 5
+2 25 5
+2 25 5
+2 25 5
+2 3 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 18 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 22 5
+2 22 5
+2 22 5
+2 22 5
+2 22 5
+2 22 5
+2 8 5
+2 8 5
+2 8 5
+2 8 5
+2 8 5
+2 22 5
+2 22 5
+2 22 5
+2 22 5
+2 22 5
+2 22 5
+2 22 5
+2 8 5
+2 9 5
+2 8 5
+2 8 5
+2 8 5
+2 8 5
+2 8 5
+2 8 5
+2 8 5
+2 8 5
+2 7 5
+2 7 5
+2 9 5
+2 9 5
+2 6 5
+2 6 5
+2 6 5
+2 6 5
+2 6 5
+2 6 5
+2 6 5
+Player 2 Wins
+run battle between Kvutza6 and americanPy
+1 4 50
+1 4 27
+1 4 16
+1 4 11
+1 4 8
+1 4 6
+1 4 6
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 26 5
+1 26 5
+1 26 5
+1 26 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 5 5
+1 5 5
+1 5 5
+1 5 5
+1 5 5
+1 5 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 16 5
+1 16 5
+1 16 5
+1 25 5
+1 3 5
+1 3 5
+1 3 5
+1 3 5
+1 3 5
+1 3 5
+1 12 5
+1 12 5
+1 12 5
+1 3 5
+1 3 5
+1 3 5
+1 3 5
+1 13 5
+1 13 5
+1 13 5
+1 13 5
+1 13 5
+1 13 5
+1 13 5
+1 24 5
+1 24 5
+1 24 5
+1 24 5
+1 10 5
+1 10 5
+1 10 5
+1 10 5
+1 10 5
+1 8 5
+1 8 5
+1 8 5
+1 8 5
+1 11 5
+1 11 5
+1 11 5
+1 11 5
+1 11 5
+1 11 5
+1 11 5
+1 28 5
+1 28 5
+1 28 5
+1 28 5
+1 28 5
+1 17 5
+1 29 5
+1 29 5
+1 29 5
+1 7 5
+1 7 5
+1 18 5
+1 7 5
+1 7 5
+1 7 5
+1 7 5
+1 19 5
+1 19 5
+1 19 5
+1 14 5
+1 14 5
+4 7 320
+4 14 156
+4 15 80
+4 15 42
+4 15 13
+4 15 8
+4 15 6
+23 10 142
+23 10 67
+10 0 39
+10 1 55
+10 3 29
+10 3 16
+10 3 3
+10 3 3
+Player 2 Wins
+run battle between americanPy and GirlsPowerlBot
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0850>
+Player 2 Wins
+run battle between GirlsPowerlBot and awasomeBot
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7c0dc0>
+Player 2 Wins
+run battle between awasomeBot and YahmamBot
+Player 1 Wins
+run battle between shmerlingBot and YahmamBot
+Player shmerlingBot throw exception ValueError: non-integer stop for randrange()
+Player 2 Wins
+Round 2
+shmerlingBot-the_killers	the_killers-tba	tba-Undefined	Undefined-Kvutza6	Kvutza6-americanPy	americanPy-GirlsPowerlBot	GirlsPowerlBot-awasomeBot	awasomeBot-YahmamBot	shmerlingBot-YahmamBot
+run battle between shmerlingBot and the_killers
+Player 1 Wins
+run battle between the_killers and tba
+Player tba throw exception ValueError: max() arg is an empty sequence
+Player 1 Wins
+run battle between tba and Undefined
+Player 2 Wins
+run battle between Undefined and Kvutza6
+2 4 50
+2 4 27
+2 4 16
+2 4 11
+2 4 8
+2 4 6
+2 4 6
+2 4 5
+2 4 5
+2 4 5
+2 4 5
+2 4 5
+2 4 5
+2 4 5
+2 4 5
+2 4 5
+2 4 5
+2 4 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+0 25 1
+0 25 5
+0 25 8
+0 25 9
+0 25 9
+0 25 10
+0 25 10
+0 25 10
+2 25 25
+2 25 15
+2 25 10
+2 25 8
+2 25 6
+2 25 6
+2 25 5
+2 25 5
+2 25 5
+2 25 5
+2 25 5
+2 3 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 18 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 22 5
+2 22 5
+2 22 5
+2 22 5
+2 22 5
+2 22 5
+2 8 5
+2 8 5
+2 8 5
+2 8 5
+2 8 5
+2 22 5
+2 22 5
+2 22 5
+2 22 5
+2 22 5
+2 22 5
+2 22 5
+2 8 5
+2 9 5
+2 8 5
+2 8 5
+2 8 5
+2 8 5
+2 8 5
+2 8 5
+2 8 5
+2 8 5
+2 7 5
+2 7 5
+2 9 5
+2 9 5
+2 6 5
+2 6 5
+2 6 5
+2 6 5
+2 6 5
+2 6 5
+2 6 5
+Player 2 Wins
+run battle between Kvutza6 and americanPy
+1 4 50
+1 4 27
+1 4 16
+1 4 11
+1 4 8
+1 4 6
+1 4 6
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 26 5
+1 26 5
+1 26 5
+1 26 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 5 5
+1 5 5
+1 5 5
+1 5 5
+1 5 5
+1 5 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 16 5
+1 16 5
+1 16 5
+1 25 5
+1 3 5
+1 3 5
+1 3 5
+1 3 5
+1 3 5
+1 3 5
+1 12 5
+1 12 5
+1 12 5
+1 3 5
+1 3 5
+1 3 5
+1 3 5
+1 13 5
+1 13 5
+1 13 5
+1 13 5
+1 13 5
+1 13 5
+1 13 5
+1 24 5
+1 24 5
+1 24 5
+1 24 5
+1 10 5
+1 10 5
+1 10 5
+1 10 5
+1 10 5
+1 8 5
+1 8 5
+1 8 5
+1 8 5
+1 11 5
+1 11 5
+1 11 5
+1 11 5
+1 11 5
+1 11 5
+1 11 5
+1 28 5
+1 28 5
+1 28 5
+1 28 5
+1 28 5
+1 17 5
+1 29 5
+1 29 5
+1 29 5
+1 7 5
+1 7 5
+1 18 5
+1 7 5
+1 7 5
+1 7 5
+1 7 5
+1 19 5
+1 19 5
+1 19 5
+1 14 5
+1 14 5
+4 7 320
+4 14 156
+4 15 80
+4 15 42
+4 15 13
+4 15 8
+4 15 6
+23 10 142
+23 10 67
+10 0 39
+10 1 55
+10 3 29
+10 3 16
+10 3 3
+10 3 3
+Player 2 Wins
+run battle between americanPy and GirlsPowerlBot
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+<planet_wars.planet_wars.Planet object at 0x7f791d7efaf0>
+Player 2 Wins
+run battle between GirlsPowerlBot and awasomeBot
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+<planet_wars.planet_wars.Planet object at 0x7f791d7ee340>
+Player 2 Wins
+run battle between awasomeBot and YahmamBot
+Player 1 Wins
+run battle between shmerlingBot and YahmamBot
+Player shmerlingBot throw exception ValueError: non-integer stop for randrange()
+Player 2 Wins
+Round 3
+shmerlingBot-the_killers	the_killers-Undefined	Undefined-Kvutza6	Kvutza6-americanPy	americanPy-GirlsPowerlBot	GirlsPowerlBot-awasomeBot	awasomeBot-YahmamBot	shmerlingBot-YahmamBot
+run battle between shmerlingBot and the_killers
+Player the_killers throw exception ValueError: min() arg is an empty sequence
+Player 1 Wins
+run battle between the_killers and Undefined
+Player Undefined throw exception IndexError: list index out of range
+Player 1 Wins
+run battle between Undefined and Kvutza6
+2 4 50
+2 4 27
+2 4 16
+2 4 11
+2 4 8
+2 4 6
+2 4 6
+2 4 5
+2 4 5
+2 4 5
+2 4 5
+2 4 5
+2 4 5
+2 4 5
+2 4 5
+2 4 5
+2 4 5
+2 4 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 26 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 27 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+2 0 5
+0 25 1
+0 25 5
+0 25 8
+0 25 9
+0 25 9
+0 25 10
+0 25 10
+0 25 10
+2 25 25
+2 25 15
+2 25 10
+2 25 8
+2 25 6
+2 25 6
+2 25 5
+2 25 5
+2 25 5
+2 25 5
+2 25 5
+2 3 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 18 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 23 5
+2 22 5
+2 22 5
+2 22 5
+2 22 5
+2 22 5
+2 22 5
+2 8 5
+2 8 5
+2 8 5
+2 8 5
+2 8 5
+2 22 5
+2 22 5
+2 22 5
+2 22 5
+2 22 5
+2 22 5
+2 22 5
+2 8 5
+2 9 5
+2 8 5
+2 8 5
+2 8 5
+2 8 5
+2 8 5
+2 8 5
+2 8 5
+2 8 5
+2 7 5
+2 7 5
+2 9 5
+2 9 5
+2 6 5
+2 6 5
+2 6 5
+2 6 5
+2 6 5
+2 6 5
+2 6 5
+Player 2 Wins
+run battle between Kvutza6 and americanPy
+1 4 50
+1 4 27
+1 4 16
+1 4 11
+1 4 8
+1 4 6
+1 4 6
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 26 5
+1 26 5
+1 26 5
+1 26 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 5 5
+1 5 5
+1 5 5
+1 5 5
+1 5 5
+1 5 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 16 5
+1 16 5
+1 16 5
+1 25 5
+1 3 5
+1 3 5
+1 3 5
+1 3 5
+1 3 5
+1 3 5
+1 12 5
+1 12 5
+1 12 5
+1 3 5
+1 3 5
+1 3 5
+1 3 5
+1 13 5
+1 13 5
+1 13 5
+1 13 5
+1 13 5
+1 13 5
+1 13 5
+1 24 5
+1 24 5
+1 24 5
+1 24 5
+1 10 5
+1 10 5
+1 10 5
+1 10 5
+1 10 5
+1 8 5
+1 8 5
+1 8 5
+1 8 5
+1 11 5
+1 11 5
+1 11 5
+1 11 5
+1 11 5
+1 11 5
+1 11 5
+1 28 5
+1 28 5
+1 28 5
+1 28 5
+1 28 5
+1 17 5
+1 29 5
+1 29 5
+1 29 5
+1 7 5
+1 7 5
+1 18 5
+1 7 5
+1 7 5
+1 7 5
+1 7 5
+1 19 5
+1 19 5
+1 19 5
+1 14 5
+1 14 5
+4 7 320
+4 14 156
+4 15 80
+4 15 42
+4 15 13
+4 15 8
+4 15 6
+23 10 142
+23 10 67
+10 0 39
+10 1 55
+10 3 29
+10 3 16
+10 3 3
+10 3 3
+Player 2 Wins
+run battle between americanPy and GirlsPowerlBot
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8065e0>
+Player 2 Wins
+run battle between GirlsPowerlBot and awasomeBot
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+<planet_wars.planet_wars.Planet object at 0x7f791d8069a0>
+Player 2 Wins
+run battle between awasomeBot and YahmamBot
+Player 1 Wins
+run battle between shmerlingBot and YahmamBot
+Player shmerlingBot throw exception ValueError: non-integer stop for randrange()
+Player 2 Wins
+Round 4
+shmerlingBot-the_killers	the_killers-Kvutza6	Kvutza6-americanPy	americanPy-GirlsPowerlBot	GirlsPowerlBot-awasomeBot	awasomeBot-YahmamBot	shmerlingBot-YahmamBot
+run battle between shmerlingBot and the_killers
+Player 1 Wins
+run battle between the_killers and Kvutza6
+2 4 50
+2 4 27
+2 4 16
+2 4 11
+2 4 8
+2 4 6
+2 4 6
+2 4 5
+2 4 5
+2 4 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+4 26 11
+4 26 21
+4 26 20
+4 26 18
+4 26 15
+4 26 12
+4 26 11
+4 26 10
+4 26 10
+4 26 9
+4 26 7
+4 26 5
+4 26 5
+4 26 4
+4 26 4
+4 26 4
+4 5 4
+4 5 4
+4 5 4
+4 26 4
+4 27 4
+4 27 4
+4 27 4
+5 27 9
+5 27 7
+5 27 5
+5 27 5
+5 27 4
+5 27 6
+5 27 7
+5 27 8
+5 27 6
+26 27 92
+26 27 51
+26 27 28
+26 27 16
+26 27 11
+26 27 10
+26 25 7
+26 25 6
+26 25 6
+26 25 5
+26 25 5
+26 25 5
+26 25 0
+26 25 3
+Player the_killers throw exception ValueError: min() arg is an empty sequence
+Player 2 Wins
+run battle between Kvutza6 and americanPy
+1 4 50
+1 4 27
+1 4 16
+1 4 11
+1 4 8
+1 4 6
+1 4 6
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 26 5
+1 26 5
+1 26 5
+1 26 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 5 5
+1 5 5
+1 5 5
+1 5 5
+1 5 5
+1 5 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 16 5
+1 16 5
+1 16 5
+1 25 5
+1 3 5
+1 3 5
+1 3 5
+1 3 5
+1 3 5
+1 3 5
+1 12 5
+1 12 5
+1 12 5
+1 3 5
+1 3 5
+1 3 5
+1 3 5
+1 13 5
+1 13 5
+1 13 5
+1 13 5
+1 13 5
+1 13 5
+1 13 5
+1 24 5
+1 24 5
+1 24 5
+1 24 5
+1 10 5
+1 10 5
+1 10 5
+1 10 5
+1 10 5
+1 8 5
+1 8 5
+1 8 5
+1 8 5
+1 11 5
+1 11 5
+1 11 5
+1 11 5
+1 11 5
+1 11 5
+1 11 5
+1 28 5
+1 28 5
+1 28 5
+1 28 5
+1 28 5
+1 17 5
+1 29 5
+1 29 5
+1 29 5
+1 7 5
+1 7 5
+1 18 5
+1 7 5
+1 7 5
+1 7 5
+1 7 5
+1 19 5
+1 19 5
+1 19 5
+1 14 5
+1 14 5
+4 7 320
+4 14 156
+4 15 80
+4 15 42
+4 15 13
+4 15 8
+4 15 6
+23 10 142
+23 10 67
+10 0 39
+10 1 55
+10 3 29
+10 3 16
+10 3 3
+10 3 3
+Player 2 Wins
+run battle between americanPy and GirlsPowerlBot
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9112e0>
+Player 2 Wins
+run battle between GirlsPowerlBot and awasomeBot
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d911a00>
+Player 2 Wins
+run battle between awasomeBot and YahmamBot
+Player 1 Wins
+run battle between shmerlingBot and YahmamBot
+Player shmerlingBot throw exception ValueError: non-integer stop for randrange()
+Player 2 Wins
+Round 5
+shmerlingBot-Kvutza6	Kvutza6-americanPy	americanPy-GirlsPowerlBot	GirlsPowerlBot-awasomeBot	awasomeBot-YahmamBot	shmerlingBot-YahmamBot
+run battle between shmerlingBot and Kvutza6
+2 4 50
+2 4 27
+2 4 16
+2 4 11
+2 4 8
+2 4 6
+2 4 6
+2 4 5
+2 4 5
+2 4 5
+2 4 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 5
+2 5 2
+2 5 3
+4 26 60
+4 26 34
+4 26 22
+4 26 15
+4 26 12
+4 26 8
+4 26 6
+4 26 5
+4 26 5
+4 26 4
+4 26 4
+4 5 4
+4 5 4
+4 5 4
+4 5 4
+4 27 4
+4 27 4
+4 27 4
+4 27 4
+4 27 4
+4 27 4
+4 27 4
+4 27 4
+4 27 4
+4 3 4
+4 3 4
+4 3 4
+4 3 4
+4 22 4
+4 22 4
+4 22 4
+4 22 4
+4 22 4
+4 22 4
+4 3 4
+4 3 4
+4 3 4
+4 3 4
+4 3 4
+4 3 4
+4 3 4
+4 3 4
+4 3 4
+4 3 4
+4 3 4
+4 23 4
+4 23 4
+4 23 4
+4 23 4
+4 3 4
+4 3 4
+4 3 4
+4 3 4
+3 24 2
+3 24 4
+3 24 6
+3 24 6
+3 24 7
+3 24 7
+3 24 7
+3 24 7
+3 24 7
+3 24 5
+3 24 4
+3 16 3
+3 16 3
+3 16 5
+3 16 6
+3 16 7
+3 16 7
+3 16 5
+3 16 4
+3 24 3
+3 24 3
+3 24 3
+3 24 3
+3 25 3
+3 25 3
+3 25 3
+3 25 3
+3 25 3
+3 25 3
+3 25 3
+3 25 3
+3 25 3
+3 25 3
+3 25 3
+3 25 3
+3 25 3
+3 25 3
+3 25 3
+3 25 3
+3 25 3
+3 25 3
+3 25 3
+3 25 3
+3 25 3
+3 25 3
+3 25 3
+3 25 3
+3 25 3
+3 25 3
+3 25 3
+3 25 3
+3 8 3
+3 8 3
+3 8 3
+3 8 3
+3 8 3
+3 8 3
+3 8 3
+3 8 3
+3 8 3
+3 8 3
+3 8 3
+3 8 3
+3 8 3
+3 8 3
+3 8 3
+3 8 3
+3 8 3
+3 8 3
+3 8 3
+3 8 3
+3 8 3
+3 8 3
+3 8 3
+3 8 3
+3 8 3
+3 8 3
+3 8 3
+3 8 3
+3 8 3
+3 8 3
+3 9 3
+3 9 3
+3 9 3
+3 9 3
+3 0 3
+3 0 3
+3 9 3
+3 9 3
+3 9 3
+3 9 3
+3 9 3
+3 9 3
+3 9 3
+3 9 3
+3 9 3
+3 9 3
+3 9 3
+3 9 3
+3 9 3
+3 9 3
+3 9 3
+3 9 3
+3 9 3
+3 9 3
+3 9 3
+3 9 3
+3 9 3
+3 9 3
+3 9 3
+3 9 3
+3 9 3
+3 9 3
+3 0 3
+3 0 3
+3 6 3
+3 6 3
+3 6 3
+3 6 3
+3 6 3
+3 6 3
+3 6 3
+3 6 3
+Player 1 Wins
+run battle between Kvutza6 and americanPy
+1 4 50
+1 4 27
+1 4 16
+1 4 11
+1 4 8
+1 4 6
+1 4 6
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 4 5
+1 26 5
+1 26 5
+1 26 5
+1 26 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 27 5
+1 5 5
+1 5 5
+1 5 5
+1 5 5
+1 5 5
+1 5 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 23 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 25 5
+1 16 5
+1 16 5
+1 16 5
+1 25 5
+1 3 5
+1 3 5
+1 3 5
+1 3 5
+1 3 5
+1 3 5
+1 12 5
+1 12 5
+1 12 5
+1 3 5
+1 3 5
+1 3 5
+1 3 5
+1 13 5
+1 13 5
+1 13 5
+1 13 5
+1 13 5
+1 13 5
+1 13 5
+1 24 5
+1 24 5
+1 24 5
+1 24 5
+1 10 5
+1 10 5
+1 10 5
+1 10 5
+1 10 5
+1 8 5
+1 8 5
+1 8 5
+1 8 5
+1 11 5
+1 11 5
+1 11 5
+1 11 5
+1 11 5
+1 11 5
+1 11 5
+1 28 5
+1 28 5
+1 28 5
+1 28 5
+1 28 5
+1 17 5
+1 29 5
+1 29 5
+1 29 5
+1 7 5
+1 7 5
+1 18 5
+1 7 5
+1 7 5
+1 7 5
+1 7 5
+1 19 5
+1 19 5
+1 19 5
+1 14 5
+1 14 5
+4 7 320
+4 14 156
+4 15 80
+4 15 42
+4 15 13
+4 15 8
+4 15 6
+23 10 142
+23 10 67
+10 0 39
+10 1 55
+10 3 29
+10 3 16
+10 3 3
+10 3 3
+Player 2 Wins
+run battle between americanPy and GirlsPowerlBot
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791d91ae80>
+Player 2 Wins
+run battle between GirlsPowerlBot and awasomeBot
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+<planet_wars.planet_wars.Planet object at 0x7f791d9279d0>
+Player 2 Wins
+run battle between awasomeBot and YahmamBot
+Player 1 Wins
+run battle between shmerlingBot and YahmamBot
+Player shmerlingBot throw exception ValueError: non-integer stop for randrange()
+Player 2 Wins
+Round 6
+shmerlingBot-americanPy	americanPy-GirlsPowerlBot	GirlsPowerlBot-awasomeBot	awasomeBot-YahmamBot	shmerlingBot-YahmamBot
+run battle between shmerlingBot and americanPy
+Player 1 Wins
+run battle between americanPy and GirlsPowerlBot
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+<planet_wars.planet_wars.Planet object at 0x7f791d935a00>
+Player 2 Wins
+run battle between GirlsPowerlBot and awasomeBot
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+<planet_wars.planet_wars.Planet object at 0x7f791d935160>
+Player 2 Wins
+run battle between awasomeBot and YahmamBot
+Player 1 Wins
+run battle between shmerlingBot and YahmamBot
+Player shmerlingBot throw exception ValueError: non-integer stop for randrange()
+Player 2 Wins
+Round 7
+shmerlingBot-GirlsPowerlBot	GirlsPowerlBot-awasomeBot	awasomeBot-YahmamBot	shmerlingBot-YahmamBot
+run battle between shmerlingBot and GirlsPowerlBot
+<planet_wars.planet_wars.Planet object at 0x7f791da853d0>
+<planet_wars.planet_wars.Planet object at 0x7f791da853d0>
+<planet_wars.planet_wars.Planet object at 0x7f791da853d0>
+<planet_wars.planet_wars.Planet object at 0x7f791da853d0>
+<planet_wars.planet_wars.Planet object at 0x7f791da853d0>
+<planet_wars.planet_wars.Planet object at 0x7f791da853d0>
+<planet_wars.planet_wars.Planet object at 0x7f791da853d0>
+<planet_wars.planet_wars.Planet object at 0x7f791da853d0>
+Player shmerlingBot throw exception ValueError: non-integer stop for randrange()
+Player 2 Wins
+run battle between GirlsPowerlBot and awasomeBot
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+<planet_wars.planet_wars.Planet object at 0x7f791da85310>
+Player 2 Wins
+run battle between awasomeBot and YahmamBot
+Player 1 Wins
+run battle between shmerlingBot and YahmamBot
+Player shmerlingBot throw exception ValueError: non-integer stop for randrange()
+Player 2 Wins
+Round 8
+GirlsPowerlBot-awasomeBot	awasomeBot-YahmamBot	GirlsPowerlBot-YahmamBot
+run battle between GirlsPowerlBot and awasomeBot
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da8e8b0>
+Player 2 Wins
+run battle between awasomeBot and YahmamBot
+Player 1 Wins
+run battle between GirlsPowerlBot and YahmamBot
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+<planet_wars.planet_wars.Planet object at 0x7f791da9ae80>
+Player 1 Wins
+Round 9
+awasomeBot-GirlsPowerlBot	awasomeBot-GirlsPowerlBot
+run battle between awasomeBot and GirlsPowerlBot
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+<planet_wars.planet_wars.Planet object at 0x7f791da935b0>
+Player 1 Wins
+run battle between awasomeBot and GirlsPowerlBot
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+<planet_wars.planet_wars.Planet object at 0x7f791daa6ca0>
+Player 1 Wins
+Winner is awasomeBot
+
+
+
+
+Tournament Summary:
+
+
+shmerlingBot-FireflyZ_Bot	FireflyZ_Bot-the_killers	the_killers-Rust_react_gulp	Rust_react_gulp-tba	tba-Undefined	Undefined-Kvutza6	Kvutza6-americanPy	americanPy-GirlsPowerlBot	GirlsPowerlBot-awasomeBot	awasomeBot-YahmamBot	shmerlingBot-YahmamBot
+ shmerlingBot	the_killers	the_killers	tba	Undefined	Kvutza6	americanPy	GirlsPowerlBot	awasomeBot	awasomeBot	YahmamBot
+shmerlingBot-the_killers	the_killers-tba	tba-Undefined	Undefined-Kvutza6	Kvutza6-americanPy	americanPy-GirlsPowerlBot	GirlsPowerlBot-awasomeBot	awasomeBot-YahmamBot	shmerlingBot-YahmamBot
+ shmerlingBot	the_killers	Undefined	Kvutza6	americanPy	GirlsPowerlBot	awasomeBot	awasomeBot	YahmamBot
+shmerlingBot-the_killers	the_killers-Undefined	Undefined-Kvutza6	Kvutza6-americanPy	americanPy-GirlsPowerlBot	GirlsPowerlBot-awasomeBot	awasomeBot-YahmamBot	shmerlingBot-YahmamBot
+ shmerlingBot	the_killers	Kvutza6	americanPy	GirlsPowerlBot	awasomeBot	awasomeBot	YahmamBot
+shmerlingBot-the_killers	the_killers-Kvutza6	Kvutza6-americanPy	americanPy-GirlsPowerlBot	GirlsPowerlBot-awasomeBot	awasomeBot-YahmamBot	shmerlingBot-YahmamBot
+ shmerlingBot	Kvutza6	americanPy	GirlsPowerlBot	awasomeBot	awasomeBot	YahmamBot
+shmerlingBot-Kvutza6	Kvutza6-americanPy	americanPy-GirlsPowerlBot	GirlsPowerlBot-awasomeBot	awasomeBot-YahmamBot	shmerlingBot-YahmamBot
+ shmerlingBot	americanPy	GirlsPowerlBot	awasomeBot	awasomeBot	YahmamBot
+shmerlingBot-americanPy	americanPy-GirlsPowerlBot	GirlsPowerlBot-awasomeBot	awasomeBot-YahmamBot	shmerlingBot-YahmamBot
+ shmerlingBot	GirlsPowerlBot	awasomeBot	awasomeBot	YahmamBot
+shmerlingBot-GirlsPowerlBot	GirlsPowerlBot-awasomeBot	awasomeBot-YahmamBot	shmerlingBot-YahmamBot
+ GirlsPowerlBot	awasomeBot	awasomeBot	YahmamBot
+GirlsPowerlBot-awasomeBot	awasomeBot-YahmamBot	GirlsPowerlBot-YahmamBot
+ awasomeBot	awasomeBot	GirlsPowerlBot
+awasomeBot-GirlsPowerlBot	awasomeBot-GirlsPowerlBot
+ awasomeBot	awasomeBot
+             player_1_name    player_2_name  winner   finish_state  player_1_score  player_2_score  turns                            description_for_display
+battle_id
+1             shmerlingBot     FireflyZ_Bot       1  Player 1 Wins            4431               0    185  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+2             FireflyZ_Bot      the_killers       2  Player 2 Wins             153             702    200  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+3              the_killers  Rust_react_gulp       1  Player 1 Wins             691             124    200  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+4          Rust_react_gulp              tba       2  Player 2 Wins            1011            5915    200  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+5                      tba        Undefined       2  Player 2 Wins              92            6993    200  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+6                Undefined          Kvutza6       2  Player 2 Wins            1685            1860    200  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+7                  Kvutza6       americanPy       2  Player 2 Wins               0            4950    171  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+8               americanPy   GirlsPowerlBot       2  Player 2 Wins            1157            2722    200  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+9           GirlsPowerlBot       awasomeBot       2  Player 2 Wins               0            3634    150  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+10              awasomeBot        YahmamBot       1  Player 1 Wins            2942            1856    200  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+11            shmerlingBot        YahmamBot       2  Player 2 Wins             162             185     23  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+12            shmerlingBot      the_killers       1  Player 1 Wins            4057            1379    200  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+13             the_killers              tba       1  Player 1 Wins             195             144     52  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+14                     tba        Undefined       2  Player 2 Wins              92            6993    200  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+15               Undefined          Kvutza6       2  Player 2 Wins            1685            1860    200  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+16                 Kvutza6       americanPy       2  Player 2 Wins               0            4950    171  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+17              americanPy   GirlsPowerlBot       2  Player 2 Wins            1157            2722    200  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+18          GirlsPowerlBot       awasomeBot       2  Player 2 Wins               0            3634    150  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+19              awasomeBot        YahmamBot       1  Player 1 Wins            2942            1856    200  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+20            shmerlingBot        YahmamBot       2  Player 2 Wins             162             185     23  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+21            shmerlingBot      the_killers       1  Player 1 Wins             140             265     32  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+22             the_killers        Undefined       1  Player 1 Wins              85             280     80  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+23               Undefined          Kvutza6       2  Player 2 Wins            1685            1860    200  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+24                 Kvutza6       americanPy       2  Player 2 Wins               0            4950    171  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+25              americanPy   GirlsPowerlBot       2  Player 2 Wins            1157            2722    200  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+26          GirlsPowerlBot       awasomeBot       2  Player 2 Wins               0            3634    150  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+27              awasomeBot        YahmamBot       1  Player 1 Wins            2942            1856    200  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+28            shmerlingBot        YahmamBot       2  Player 2 Wins             162             185     23  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+29            shmerlingBot      the_killers       1  Player 1 Wins            3949            2227    200  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+30             the_killers          Kvutza6       2  Player 2 Wins             967             266     64  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+31                 Kvutza6       americanPy       2  Player 2 Wins               0            4950    171  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+32              americanPy   GirlsPowerlBot       2  Player 2 Wins            1157            2722    200  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+33          GirlsPowerlBot       awasomeBot       2  Player 2 Wins               0            3634    150  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+34              awasomeBot        YahmamBot       1  Player 1 Wins            2942            1856    200  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+35            shmerlingBot        YahmamBot       2  Player 2 Wins             162             185     23  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+36            shmerlingBot          Kvutza6       1  Player 1 Wins            4752            1545    200  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+37                 Kvutza6       americanPy       2  Player 2 Wins               0            4950    171  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+38              americanPy   GirlsPowerlBot       2  Player 2 Wins            1157            2722    200  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+39          GirlsPowerlBot       awasomeBot       2  Player 2 Wins               0            3634    150  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+40              awasomeBot        YahmamBot       1  Player 1 Wins            2942            1856    200  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+41            shmerlingBot        YahmamBot       2  Player 2 Wins             184             177     22  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+42            shmerlingBot       americanPy       1  Player 1 Wins            1018               0    120  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+43              americanPy   GirlsPowerlBot       2  Player 2 Wins            1157            2722    200  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+44          GirlsPowerlBot       awasomeBot       2  Player 2 Wins               0            3634    150  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+45              awasomeBot        YahmamBot       1  Player 1 Wins            2942            1856    200  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+46            shmerlingBot        YahmamBot       2  Player 2 Wins             192             285     37  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+47            shmerlingBot   GirlsPowerlBot       2  Player 2 Wins             134             202     22  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+48          GirlsPowerlBot       awasomeBot       2  Player 2 Wins               0            3634    150  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+49              awasomeBot        YahmamBot       1  Player 1 Wins            2942            1856    200  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+50            shmerlingBot        YahmamBot       2  Player 2 Wins             177             185     23  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+51          GirlsPowerlBot       awasomeBot       2  Player 2 Wins               0            3634    150  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+52              awasomeBot        YahmamBot       1  Player 1 Wins            2942            1856    200  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+53          GirlsPowerlBot        YahmamBot       1  Player 1 Wins            3438            3330    200  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+54              awasomeBot   GirlsPowerlBot       1  Player 1 Wins            3908               0    150  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+55              awasomeBot   GirlsPowerlBot       1  Player 1 Wins            3908               0    150  15.0,15.0,0,28,5:5.775092167744024,9.945603402...
+
+Process finished with exit code 0
